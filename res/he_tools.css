@@ -1,0 +1,263 @@
+	body {
+		font-family: helvetica; 
+		font-size: 80%;	
+	}
+
+	#modBeUsersMngEditLinks a {
+		display: inline;
+	}
+	
+	div.zeile {
+		clear: both;
+	}
+		
+	.zeile label {
+		float: left;
+		text-align: right;
+		width: 100px;
+		padding-right: 10px;
+	}
+	
+	.button_zeile input {
+		float: left;
+		text-align: center;
+		width: 200px;
+		margin-bottom:4px;
+	}
+	
+	.button_zeile input[type=image] {
+		width: 16px;
+	}
+	
+	h1,h2,h3 {
+		clear: both;
+	}
+	
+	h1 {
+		padding: 0;
+		margin: 20px 0 10px 0;
+	}
+	
+	h2 {
+		padding: 0;
+		margin: 15px 0 10px 0;
+	}
+	
+	h3 {
+		padding: 0;
+		margin: 10px 0 5px 0;
+	}
+	
+	p {
+		margin: 4px 0;
+	}
+	
+	hr {
+		border: 0px; /* F�r Firefox und Opera */
+		border-top: solid 1px #004666;
+		border-bottom: transparent;
+		margin: 16px 0;
+	}
+	
+	.filemount-block {
+		padding: 10px;
+		float: left;
+		width: 45%;
+	}
+	
+	.button_zeile {
+		display: block;
+		clear: left;
+	}
+	
+	.filemount-block > h2{
+		clear: none;
+	}
+	
+	.ueberschrift {
+		float: none;
+		font-size: 12px;
+	}
+	
+	
+	.seitenImport {
+		margin-left: 10px;
+	}
+	
+	.seitenImport input {
+		margin: 4px 0;
+	}
+	
+	table.grid {
+		border-collapse: collapse;
+		border: 1px solid black;
+	}
+
+	table.grid  td{
+		border: 1px solid black;
+		padding: 2px 4px;
+	}
+ 
+  .he_doku_zeile img {
+  	float: left;
+  	margin: 0 5px 5px 0;
+  }
+  
+  table {
+  	font-size: inherit;
+  }
+
+  table.tab_100 {
+  	width: 100%;
+  	clear: both;
+  }
+  
+  table.tab_100 td {
+		width: 48%; 
+  	padding: 0 2%; 
+  	vertical-align: top;
+  }
+  
+  table.grid {
+		border-left: 1px solid black;
+  }
+  
+  .grid .th {
+		border-top: 1px solid black;
+  	font-weight: bold;
+	 	}
+  
+	.grid th,
+	.grid td	 {
+		border-right: 1px solid black;
+		border-bottom: 1px solid black;
+		padding: 2px 4px;
+  }
+  
+	.grid .td_300 {
+		width: 300px;
+	}
+
+	.grid .td_200 {
+		width: 200px;
+	}
+
+	.grid .td_100 {
+		width: 100px;
+	}
+
+	.grid .aktionen img {
+		cursor: pointer;
+	}
+
+	.grid a {
+		color: #004666;
+		text-decoration: underline;
+		cursor: pointer;
+	}
+  
+  div.aliasVerwaltung {
+  	margin-left: 20px;
+  }
+
+ 	div.aliasVerwaltung h1 {
+		text-align: left
+	}
+
+	form.aliasFormular div {
+  	clear: left;
+  	padding: 8px 0;
+	}
+	
+  form.aliasFormular label {
+  	width: 150px;
+  	text-align: right;
+  	float: left;
+  	padding-right: 4px;
+  }
+  
+  .error {
+  	color: #D40032;
+  	font-weight: bold; 
+  }
+  
+  .mensa_speiseplan td.gericht {
+  	width: 90px;
+  	text-align: left;
+  	font-weight: bold;
+  }
+  
+ .mensa_speiseplan td.preis {
+  	width: 110px;
+  	text-align: right;
+  }
+  
+	.mensa_speiseplan .ui-widget-header {
+		border: none;
+		border-bottom: 1px solid #004666;
+		background: #fff;
+		color: #004666;
+	}
+
+	.mensa_speiseplan .ui-state-default, 
+	.mensa_speiseplan .ui-widget-content .ui-state-default, 
+	.mensa_speiseplan .ui-widget-header .ui-state-default {
+		border: 1px solid #004666;
+		background: #D9E4E8;
+		color: #004666;
+	}
+	
+	.mensa_speiseplan .ui-widget-header .ui-state-active {
+		border: 1px solid #004666;
+		background: #004666;
+	}
+
+	.mensa_speiseplan .ui-widget-header .ui-state-active  a{
+		color: #fff;
+	}
+	
+	.mensa_speiseplan .tagesplan .hell {
+		background: #fff;
+	}
+
+	.mensa_speiseplan .tagesplan {
+		width: 100%;
+		border: 1px solid #004666;
+	}
+
+	.mensa_speiseplan .tagesplan .dunkel {
+		background: #D9E4E8;
+	}
+
+	.mensa_speiseplan .ui-tabs .ui-tabs-panel {
+		padding: 0;
+	}
+	
+	.icon-actions {
+		height: 16px;
+		width: 16px;
+		background-image: url('/typo3/sysext/t3skin/images/sprites/t3skin.png') !important;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		display: inline-block;
+		position: relative;
+		overflow: hidden;
+		float: left;
+		margin-left: 1px;
+		margin-right: 1px;
+	}
+	
+	.t3-icon-edit-delete {
+		background-position: -162px -18px !important;
+	}	
+	
+	table.solr_results tr.even {
+		background: #eee;
+	}
+		
+	table.solr_results tr.odd {
+		background: #fff;
+	}
+
+
+

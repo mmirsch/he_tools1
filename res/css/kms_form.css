@@ -1,0 +1,22 @@
+
+	.kms_form input[type='checkbox'] {
+		float: left;
+		width: 20px;
+		clear: left;
+	}
+
+	.kms_form .zustimmung {
+		margin: 10px 0;
+		overflow: hidden;
+	}
+
+	.kms_form label {
+		float: left;
+		width: 500px;
+	}
+
+	.error {
+		background: #fff;
+  	color: #D40032;
+  	font-weight: bold; 
+  }

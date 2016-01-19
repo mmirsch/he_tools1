@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@media all {
+	.scheduleWidget table tr:hover,
+	.scheduleWidget table tr:focus {
+		background: #004666;
+		color: #fff;
+		cursor: pointer;
+	}
+}

@@ -1,0 +1,55 @@
+form.technolino input[type="submit"],
+form.technolino input[type="button"] {
+    margin: 10px 10px 10px 0;
+    font-size: 120%;
+    font-weight: normal;
+    color: white;
+    background-color: #3B7089;
+    padding: 4px 10px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    float: left;
+    border: 1px solid #3B7089;
+}
+
+table.grid {
+    border: none !important;
+}
+
+table.grid td {
+    padding: 10px 20px;
+    font-size: 110%;
+}
+
+table.grid tr.space,
+table.grid tr.space td {
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    padding: 10px 0 0 0;
+}
+
+table.grid tr {
+    border-bottom: 1px solid #004666 !important;
+}
+
+td.free {
+    background:  #007E1A;
+    background: #99f4a0;
+}
+
+td.free a:link,
+td.free a:visited {
+    color: #fff;
+    color: #000;
+}
+
+td.complete {
+    background:  #D40032;
+    color: #fff;
+}
+
+div.events.anmeldungen h2 {
+    clear: left;
+}

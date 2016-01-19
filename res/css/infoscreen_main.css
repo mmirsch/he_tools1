@@ -1,0 +1,266 @@
+	html {
+		font-family: Verdana, Helvetica, sans-serif;
+		cursor: none;
+		font-size: 36px;
+	}
+				
+	body {
+		overflow:hidden !important;
+		background: #004666 !important;
+		color: #fff;
+	}
+
+	* {cursor: none; background: transparent;}
+
+	.htmlarea-content-body * {
+		cursor: auto;
+	}
+
+	.csc-textpic-text table td {
+		padding: 0.2em 4em 0.2em 0;
+	}
+	
+	.csc-textpic-text table td p {
+		margin: 0;
+		padding: 0;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: normal;
+	}
+	h1 {
+		font-size: 200%;
+	}
+	h2 {
+		font-size: 180%;
+	}
+	h3 {
+		font-size: 160%;
+	}
+	h4 {
+		font-size: 140%;
+	}
+	h5 {
+		font-size: 120%;
+	}
+	h6 {
+		font-size: 110%;
+	}
+
+	#seiteninhalt .align-center,
+	.align-center {
+		text-align: center;
+	}
+
+	#seiteninhalt {
+		font-size: 500%;
+		float: left;
+		position: absolute;
+		margin: 0 auto;
+    width: 90%;
+		padding: 0 5%;
+	}
+	
+	#seiteninhalt h2,
+	#seiteninhalt h3	{
+		font-weight: normal;
+		margin-bottom: 1em;
+	}
+
+    #seiteninhalt .csc-textpic-text table h2,
+    #seiteninhalt .csc-textpic-text table h3	{
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    #seiteninhalt .csc-textpic-text table {
+        margin: 0 auto;
+    }
+
+    #seiteninhalt .csc-textpic-text table th,
+    #seiteninhalt .csc-textpic-text table td {
+        text-align: left;
+    }
+
+    #seiteninhalt table p.align-left {
+        text-align: left;
+    }
+
+    #seiteninhalt table td li {
+        list-style: disc;
+        margin: 0 0 0 10%;
+        padding: 0;
+    }
+    
+    #seiteninhalt a:link,
+    #seiteninhalt a:visited {
+    	color: #fff;
+    }
+    
+    .hidden {
+    	display: none !important;
+    }
+    
+ 	table.tab50 {
+		width: 50%;
+	}
+	
+	table.tab66 {
+		width: 66%;
+	}
+	
+	table.tab75 {
+		width: 75%;
+	}
+	
+	table.tab100 {
+		width: 90%;
+		margin: 5%;
+	}
+	
+	table.zentriert {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	tbody.t25_25_25_25,
+	tbody.t50_50,
+	tbody.t25_75,
+	tbody.t75_25,
+	tbody.t33_33_33,
+	tbody.t33_66,
+	tbody.t66_33 {
+		width: inherit;
+	}
+	
+	tbody.t25_25_25_25 td,
+	td.td25 {
+		width: 25%;
+	}
+	
+	tbody.t33_66 tr>td,
+	tbody.t66_33 tr>td+td,
+	tbody.t33_33_33 td,
+	td.td33 {
+		width: 33.333%;
+		margin: -1px;
+		border: 1px solid #004666 !important;
+	}
+	
+	tbody.t50_50 td,
+	td.td50 {
+		width: 50%;
+		margin: -1px;
+		border: 1px solid #004666 !important;
+	}
+	
+	tbody.t33_66 tr>td+td,
+	tbody.t66_33 tr>td,
+	td.td66 {
+		width: 66.666%;
+		margin: -1px;
+		border: 1px solid #004666 !important;
+	}
+	
+	tbody.t25_75 tr>td+td,
+	tbody.t75_25 tr>td,
+	td.td75 {
+		width: 75%;
+		margin: -1px;
+		border: 1px solid #004666 !important;
+	}
+
+	tbody.schrift120,
+	.schrift120,
+	div.schrift120,
+	p.schrift120,
+	span.schrift120 {
+		font-size: 120%;
+	}
+
+	tbody.schrift140,
+	.schrift140,
+	div.schrift140,
+	p.schrift140,
+	span.schrift140 {
+		font-size: 140%;
+	}
+
+	tbody.schrift160,
+	.schrift160,
+	div.schrift160,
+	p.schrift160,
+	span.schrift160 {
+		font-size: 160%;
+	}
+
+	tbody.schrift180,
+	.schrift180,
+	div.schrift180,
+	p.schrift180,
+	span.schrift180 {
+		font-size: 180%;
+	}
+
+	tbody.schrift200,
+	.schrift200,
+	div.schrift200,
+	p.schrift200,
+	span.schrift200 {
+		font-size: 200%;
+	}
+
+	#seiteninhalt table.grid {
+		border-collapse: collapse;
+	}
+	
+	#seiteninhalt table.grid,
+	#seiteninhalt tr.grid,
+	#seiteninhalt th.grid,
+	#seiteninhalt td.grid,
+	#seiteninhalt .grid,
+	#seiteninhalt table.grid td,
+	#seiteninhalt table.grid th  {
+		border: 1px solid #fff !important;
+	}
+
+	th, td {
+		margin: 0px;
+		padding: 0.5% 1% !important;
+	}
+
+	#slider,
+	#slider>div {
+		width: 100%;
+	}
+
+	#slider div.eintrag {
+		width: 100%;
+		padding: 0;
+	}
+	
+
+	#slider table.tab100 {
+		width: 100%;
+		margin: 0;
+	}
+	
+	#slider h1,
+	#slider h2,
+	#slider h3,
+	#slider h4,
+	#slider h5 {
+		text-align: left;
+		padding-bottom: 0.6em;
+	}
+	
+	#slider th, 
+	#slider td {
+		padding: 0 0.5em 0.9em 0 !important;
+		vertical-align: top;
+	}
+	
+
+	#seiteninhalt .align-left {
+		text-align: left;
+	}

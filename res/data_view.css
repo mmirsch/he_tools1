@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+@media all {
+	h1 a:link,
+	h1 a:visited {
+		color: #fff;
+	}
+	
+	div.a_bis_z_suche.weiss {
+		background: transparent;
+	}
+	
+	div.a_bis_z_suche #ergebnisliste {
+		width: 100%;
+	}	
+	
+	div.a_bis_z_suche .produktname {
+		color: #E11C3E;
+		padding: 0 5px;
+	}
+	
+	div.a_bis_z_suche form {
+		clear: both;
+	}
+	
+	div.a_bis_z_suche .hidden {
+		display: none;
+	}
+	
+	div.a_bis_z_suche .such_box {
+		clear: both;
+	}
+	
+	div.a_bis_z_suche ul.azSelector li {
+		padding: 2px;
+	}
+
+	div.a_bis_z_suche ul.azSelector {
+		overflow: hidden;
+		padding: 4px;
+		margin: 0;
+		background: #E5EEF1;
+	}
+	
+	div.a_bis_z_suche ul.azSelector li.tab-andere {
+		display: none;
+	}
+	
+	div.a_bis_z_suche div.azSelector,
+	div.a_bis_z_suche ul.azSelector {
+		height: inherit;
+	}
+	
+	div.a_bis_z_suche ul.azSelector li {
+		padding: 0;
+		margin: 0;
+		border: none;
+		text-align: center;
+		color: #004666;
+		float: left;
+		list-style: none;
+	}
+	div.a_bis_z_suche ul.azSelector li a {
+		color: #004666;
+		font-weight: bold;
+	}
+	div.a_bis_z_suche ul.azSelector li span,
+	div.a_bis_z_suche ul.azSelector li a {
+		padding: 2px 8px;
+		border-right: 1px solid #004666;
+	}
+
+	div.a_bis_z_suche ul.azSelector li a span {
+		padding: 0;
+		border: none;
+	}
+	div.a_bis_z_suche ul.azSelector li.last span,
+	div.a_bis_z_suche ul.azSelector li.last a {
+		border: none;
+	}		
+	
+	div.a_bis_z_suche div.searchbox {
+		overflow: hidden;
+		margin-bottom: 4px;
+	}
+	div.a_bis_z_suche input.sword {
+		margin: 0;
+		padding: 2px 4px;
+		text-align: left:
+	}
+
+	div.a_bis_z_suche input.button {
+		margin: 0 10px;
+	}
+	
+	div.a_bis_z_suche .bottom {
+		padding-top: 10px;
+	}
+	
+	div.a_bis_z_suche .listview {
+		clear: both;
+		border-top: 1px solid #004666;
+		margin-top: 10px;
+		padding-top: 10px;
+	}
+	div.a_bis_z_suche th {
+		padding: 2px;
+	}
+	div.a_bis_z_suche th a {
+		color: #fff;
+	}
+	div.a_bis_z_suche .browsebox {
+		padding: 5px 0;
+	}
+	div.a_bis_z_suche tr.even {
+		background: #F2F7F9;
+	}
+	div.a_bis_z_suche tr.odd {
+		background: #FAFCFC;
+	}
+	div.filter .selectbox {
+		float: left;
+		margin-right: 8px;
+	}
+	div.filter .selectbox_title {
+		display: block;
+	}
+	div.filter select {
+		max-width: 110px;
+	}
+	div.a_bis_z_suche .azSelector {
+		clear: left;
+	}
+	div.a_bis_z_suche .element {
+		clear: both;
+	}
+	div.a_bis_z_suche .element a:link,
+	div.a_bis_z_suche .element a:visited {
+		font-size: 12px;
+	}
+	
+	div.a_bis_z_suche div.hochschule_a_z {
+		width: 100%;
+		display: table; 
+		position: static;
+	}
+	
+	div.a_bis_z_suche div.hochschule_a_z .eintrag {
+		float: left; 
+		width: 50%;
+	}
+	
+	div.a_bis_z_suche.dreispaltig div.hochschule_a_z .eintrag {
+		width: 33.33%;
+	}
+
+	div.a_bis_z_suche div.hochschule_a_z hr {
+		margin: 0 0 20px 0;
+		padding: 0 0 20px 0;
+		border: none;
+		border-bottom: 1px solid #004666;
+		clear: left;
+	}	
+
+	div.a_bis_z_suche div.hochschule_a_z h2 {
+		clear: left;
+		border-top: 15px solid white;
+	}
+	
+	div.a_bis_z_suche div.hochschule_a_z .linkwrap {
+		display: block;
+		border: 1px solid #004666;
+		margin: 2px;
+	}
+	
+	div.hochschule_a_z .eintrag a {
+		background: #fff;
+		padding: 4px;
+		color: #004666;
+		text-decoration: none;
+		text-align: center;
+		font-size: 120%;
+		font-weight: bold;
+		display: block;
+		height: 4em;
+		vertical-align: middle;
+	}
+	
+	div.hochschule_a_z .row {
+		overflow: hidden;
+	}
+	
+	div.hochschule_a_z .title {
+		float: left;
+		width: 20%;
+		padding: 2px 4px;
+		margin-right: -8px;
+	}
+	
+	div.hochschule_a_z .content {
+				float: left;
+		width: 80%;
+		padding: 2px 4px;
+		margin-right: -8px;
+	}
+	
+	div.hochschule_a_z .eintrag a:hover {
+		background: #004666;
+		color: #fff;
+	}
+	
+	.a_bis_z_suche ul.azSelector li.selected, 
+	.a_bis_z_suche ul.modeSelector li.selected {
+		background: transparent;;
+	}
+	
+	.a_bis_z_suche ul.azSelector li.selected a, 
+	.a_bis_z_suche ul.modeSelector li.selected a,
+	.a_bis_z_suche ul.azSelector li a:hover, 
+	.a_bis_z_suche ul.modeSelector li a:hover {
+		color: #fff;
+		background: #3B7089;
+		text-decoration: none;
+	}
+}

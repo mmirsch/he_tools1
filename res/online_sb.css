@@ -1,0 +1,56 @@
+	/* Anmeldeformular */
+	div.tx-hetools-pi1 form div.row {
+		clear: left;
+	}
+
+	div.tx-hetools-pi1 form label {
+		float: left;
+		width: 200px;
+		text-align: right;
+		padding-right: 4px;
+	}
+	
+	div.tx-hetools-pi1 form input[type="text"],
+	div.tx-hetools-pi1 form input[type="password"] {
+		float: left;
+		width: 200px;
+		text-align: left;
+	}
+	
+	div.tx-hetools-pi1 dl {
+		margin: 0 0 0 10px;
+	}
+
+	div.tx-hetools-pi1 dd {
+		margin-left: 20px;
+	}
+
+	div.tx-hetools-pi1 div.buttons {
+		margin: 10px 0;
+	}
+	
+	
+	div.tx-hetools-pi1 dl.anfrage dd.last {
+		font-size: 140%;
+	}
+	
+	div.tx-hetools-pi1 ul.anfragen li {
+		list-style: none;
+		font-weight: bold;
+	}
+	
+	div.tx-hetools-pi1 ul.anfragen li.gruen a {
+		color: #007E1A;
+	}
+	
+	div.tx-hetools-pi1 ul.anfragen li.rot a {
+		color: #D40032;
+	}
+	
+	div.tx-hetools-pi1 form.antwort textarea {
+		font-size: 120%;
+		padding: 4px;
+		width: 530px;
+	}
+	
+	

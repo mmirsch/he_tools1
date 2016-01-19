@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@media screen , projection {
+	.info_blase em {
+		display: block;
+		width: 0;
+		height: 0;
+		border: 10px solid;
+		position: absolute;
+		top: 20px;
+		left: -20px;
+		border-color: transparent #004666 transparent transparent;
+	}
+	
+	.info_blase {
+		background: #004666;
+		padding: 10px;
+		color: #fff;
+		margin: 5px 5px 15px 5px;
+		position: relative;
+		-moz-border-radius: 15px;
+		border-radius: 15px;
+		box-shadow: 4px 6px 4px #666;
+	}
+
+	.info_blase .title {
+		margin-bottom: 10px;
+		font-weight: bold;
+	}
+
+	.info_blase a:link,
+	.info_blase a:visited,
+	.info_blase a:hover,
+	.info_blase a:focus {
+		color: #fff;
+	}
+
+}

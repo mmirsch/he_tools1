@@ -1,0 +1,197 @@
+	html {
+		font-size: 8px;
+	}
+				
+	body {
+		overflow:hidden !important;
+		background: #004666 !important;
+	}
+
+	* {cursor: none; background: transparent;}
+	
+	#head {
+		position: absolute;
+		top: 5%;
+		left: 5%;
+		width: 90%;
+		height: 110px;
+		border-bottom: 3px solid #fff;
+	}
+	
+	#logo {
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin-top: 0;
+		height: 60px;
+	}
+	
+	#logo img {
+		height: 100px;
+	}
+	
+	#date {
+		position: absolute;
+		top: 0;
+		right: 0;
+		font-size: 300%;
+	}
+	#time {
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding-top: 1.8em;
+		font-size: 300%;
+	}
+	
+	#sponsoren {
+		position: absolute;
+		overflow: hidden;
+		bottom: 0;
+	}
+	
+	#lauftext {
+  	position:absolute;		
+		font-size: 333%;
+		font-weight: normal;
+  	display: block;
+		bottom: 0;
+  	margin: 0 0 1% 0;
+  	width: auto;
+	}
+
+	#lauftext .text {
+		float: left;
+	}
+				
+	#sponsorentest #lauftext {
+		font-size: 333%;
+	}
+	
+	#sponsorentest #gebaeude {
+		padding: 1% 0 0 0;
+	}
+	
+	.background.opaque {
+		position: absolute;
+		opacity: 0.5; 
+	}
+	
+	.tx-hetools-pi1 {
+		text-align: center;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	.tx-hetools-pi1 {
+		position: absolute;
+		overflow: hidden;
+		z-index: 99;
+		width: 100%;
+		height: 100%;
+		background: transparent;
+		color: #fff;
+		font-size: 90%;
+	}
+	#kalenderTerminWrapSingle,
+	#kalenderTerminWrapMulti {
+		position: absolute;
+		width: 90%;
+		padding: 0 5%; 
+		margin: 0;
+		overflow: hidden;
+	}
+	#kalenderTerminWrapMulti {
+		font-size: 95%;
+	}
+	#kalenderTerminWrapSingle {
+		font-size: 140%;
+	}
+	#kalenderTerminWrapMultiSlider {
+		width: 99999px;
+		overflow: hidden; 
+	}
+	#kalenderTerminWrapSingle #kalenderTermin {
+		width: 100%;
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+	#kalenderTerminWrapMulti .kalenderTermin {
+		width: 100%;
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+	#kalenderTerminWrapMulti hr {
+		clear: left;
+		border-top: 1px solid #fff;
+		border-bottom: none;
+		margin-top: 0;
+		margin-bottom: 3%;
+		padding: 0;
+		width: 100%;
+	}
+	
+	.kalenderTermin div {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.kalenderTermin .infoTitle {
+		font-size: 450%;
+		text-align: left;
+		width: 100%;
+	}
+
+	.kalenderTermin .infoTitle.single {
+		font-size: 500%;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.kalenderTermin .uhrzeit {
+		font-size: 350%;
+		float: left;
+		width: 50%;
+		padding: 2% 0;
+		text-align: left; 
+	}
+	.kalenderTermin .ort {
+		float: left;
+		width: 50%;
+		text-align: left; 
+		padding: 2% 0; 
+	}
+	.kalenderTermin .gebaeude,
+	.kalenderTermin .raum {
+		font-size: 350%;
+		float: left;
+		width: 100%;
+	}
+	.ort .label {
+		float: left;
+		width: 30%;
+		text-align: right;
+	}
+	.ort .text {
+		float: left;
+		width: 60%;
+		text-align: left;
+		padding-left: 10px;
+	}
+	
+	#gebaeude {
+		position: absolute;
+		bottom: 0;
+		font-size: 250%;
+		border-top: 1px solid #fff;
+		width: 100%;
+		margin-top: 1%;
+		text-decoration: underline;
+		padding: 1% 0 0 0;
+		background: #004666;
+		z-index: 99;
+	}
+	

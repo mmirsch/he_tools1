@@ -1,0 +1,1294 @@
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+		<!--	<langChildren>1</langChildren>!-->
+	</meta>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>HE-Plugins</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+ 					<mode>
+						<TCEforms>
+						<exclude>1</exclude>
+							<label>Plugin auswählen</label>
+							<onChange>reload</onChange>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">PM Praxissemester-Admin</numIndex>
+										<numIndex index="1">PRAXIS</numIndex>
+									</numIndex>
+									<numIndex index="0_AAA" type="array">
+										<numIndex index="0">Praxissemester-AAA</numIndex>
+										<numIndex index="1">PRAXIS_AAA</numIndex>
+									</numIndex>
+									<numIndex index="0_SB" type="array">
+										<numIndex index="0">Export Anmeldedaten Studienberatung (Mentoren/Mentees)</numIndex>
+										<numIndex index="1">POWERMAIL_EXPORT_STUDIENBERATUNG</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">RZ-Verfügbarkeit</numIndex>
+										<numIndex index="1">RZ_VERFUEGBARKEIT</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">RZ-Access-Points</numIndex>
+										<numIndex index="1">RZ_ACCESS_POINTS</numIndex>
+									</numIndex>
+									<numIndex index="2a" type="array">
+										<numIndex index="0">Aktuelle Wetterdaten anzeigen (komprimiert)</numIndex>
+										<numIndex index="1">RZ_WETTER_AKTUELL_KURZ</numIndex>
+									</numIndex>
+									<numIndex index="2b" type="array">
+										<numIndex index="0">Aktuelle Wetterdaten anzeigen (detailliert)</numIndex>
+										<numIndex index="1">RZ_WETTER_AKTUELL_DETAILS</numIndex>
+									</numIndex>
+									<numIndex index="2c" type="array">
+										<numIndex index="0">Wetterdaten-Formular</numIndex>
+										<numIndex index="1">RZ_WETTER_FORMULAR</numIndex>
+									</numIndex>
+
+									<numIndex index="3" type="array">
+										<numIndex index="0">Zeitschriftenliste</numIndex>
+										<numIndex index="1">ZEITSCHRIFTENLISTE</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">Verwendung der Studiengebühren</numIndex>
+										<numIndex index="1">VERWENDUNG_STUDIENGEBUEHREN</numIndex>
+									</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">Message of the Day</numIndex>
+										<numIndex index="1">MOTD</numIndex>
+									</numIndex>
+									<numIndex index="6" type="array">
+										<numIndex index="0">Modulübersicht</numIndex>
+										<numIndex index="1">MODUL_TABELLE</numIndex>
+									</numIndex>
+									<numIndex index="7" type="array">
+										<numIndex index="0">Modulhandbuch</numIndex>
+										<numIndex index="1">MODUL_HANDBUCH</numIndex>
+									</numIndex>
+									<numIndex index="8" type="array">
+										<numIndex index="0">Modulübersicht LSF</numIndex>
+										<numIndex index="1">MODUL_TABELLE_LSF</numIndex>
+									</numIndex>
+									<numIndex index="8d" type="array">
+										<numIndex index="0">Modulhandbuch LSF</numIndex>
+										<numIndex index="1">MODUL_HANDBUCH_LSF</numIndex>
+									</numIndex>
+									<numIndex index="8m1" type="array">
+										<numIndex index="0">Modulübersicht LSF (neu)</numIndex>
+										<numIndex index="1">MODULUEBERSICHT_LSF</numIndex>
+									</numIndex>
+									<numIndex index="8m2" type="array">
+										<numIndex index="0">Modulübersicht LSF (Vorschlag Prof. Schmidt)</numIndex>
+										<numIndex index="1">MODULUEBERSICHT_LSF_VERT</numIndex>
+									</numIndex>
+									<numIndex index="8a" type="array">
+										<numIndex index="0">Englischsprachige Module LSF (Veranstaltungen)</numIndex>
+										<numIndex index="1">MODULE_ENGLISCH_LSF_VERANSTALTUNGEN</numIndex>
+									</numIndex>
+									<numIndex index="8a2" type="array">
+										<numIndex index="0">Englischsprachige Module LSF (Modulbeschreibungen)</numIndex>
+										<numIndex index="1">MODULE_ENGLISCH_LSF_MODULBESCHREIBUNGEN</numIndex>
+									</numIndex>
+									<numIndex index="8a3" type="array">
+										<numIndex index="0">Englischsprachige Teilleistungen LSF</numIndex>
+										<numIndex index="1">MODULE_ENGLISCH_LSF_TEILLEISTUNGEN</numIndex>
+									</numIndex>
+									<numIndex index="8a4" type="array">
+										<numIndex index="0">Englischsprachige Module (TYPO3)</numIndex>
+										<numIndex index="1">MODULE_ENGLISCH_TYPO3</numIndex>
+									</numIndex>
+									<numIndex index="8b" type="array">
+										<numIndex index="0">Modultest LSF</numIndex>
+										<numIndex index="1">MODUL_TEST_LSF</numIndex>
+									</numIndex>
+									<numIndex index="8c" type="array">
+										<numIndex index="0">SOAP Test LSF</numIndex>
+										<numIndex index="1">SOAP_TEST_LSF</numIndex>
+									</numIndex>
+									<numIndex index="10" type="array">
+										<numIndex index="0">Suchergebnisse</numIndex>
+										<numIndex index="1">SUCHERGEBNISSE</numIndex>
+									</numIndex>
+									<numIndex index="12" type="array">
+										<numIndex index="0">Eigene Gadgets</numIndex>
+										<numIndex index="1">GADGETS</numIndex>
+									</numIndex>
+									<numIndex index="13" type="array">
+										<numIndex index="0">Tools</numIndex>
+										<numIndex index="1">TOOLS</numIndex>
+									</numIndex>
+									<numIndex index="14" type="array">
+										<numIndex index="0">Daten-Ansicht</numIndex>
+										<numIndex index="1">DATA_VIEW</numIndex>
+									</numIndex>
+									<numIndex index="15" type="array">
+										<numIndex index="0">Hochschulexpress-Bereich</numIndex>
+										<numIndex index="1">HOCHSCHULEXPRESS</numIndex>
+									</numIndex>
+									<numIndex index="15a" type="array">
+										<numIndex index="0">Hochschulticker-Bereich</numIndex>
+										<numIndex index="1">HOCHSCHULTICKER</numIndex>
+									</numIndex>
+									<numIndex index="16" type="array">
+										<numIndex index="0">FAQ-Einträge</numIndex>
+										<numIndex index="1">FAQ_EINTRAEGE</numIndex>
+									</numIndex>
+																	<numIndex index="17" type="array">
+										<numIndex index="0">Online Studienberatung</numIndex>
+										<numIndex index="1">ONLINE_SB</numIndex>
+									</numIndex>
+									<numIndex index="18" type="array">
+										<numIndex index="0">Echug</numIndex>
+										<numIndex index="1">ECHUG</numIndex>
+									</numIndex>
+																	 <numIndex index="99" type="array">
+										<numIndex index="0">test</numIndex>
+										<numIndex index="1">TEST</numIndex>
+									</numIndex></items>
+							</config>
+						</TCEforms>
+					</mode>
+ 					<echug_funktionen>
+						<TCEforms>
+										<displayCond>FIELD:mode:IN:ECHUG</displayCond>
+								<exclude>1</exclude>
+							<label>Funktionen auswählen</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0" type="array">
+										<numIndex index="0">Echug Umfrage</numIndex>
+										<numIndex index="1">UMFRAGE</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">Echug Auswertung</numIndex>
+										<numIndex index="1">AUSWERTUNG</numIndex>
+									</numIndex>
+								</items>
+								</config>
+						</TCEforms>
+					</echug_funktionen>
+ 					<sb_funktion>
+						<TCEforms>
+						<displayCond>FIELD:mode:IN:ONLINE_SB</displayCond>
+						<exclude>1</exclude>
+							<label>Funktionen auswählen</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0" type="array">
+										<numIndex index="0">Loginwarnung</numIndex>
+										<numIndex index="1">LOGIN_WARNUNG</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">Benutzer anlegen</numIndex>
+										<numIndex index="1">CREATE_FE_USER</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">Login Formular</numIndex>
+										<numIndex index="1">LOGIN_FORMULAR</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">Zeige Registrierungsdaten</numIndex>
+										<numIndex index="1">SHOW_REG_DATA</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">Anfragen bearbeiten (Admins)</numIndex>
+										<numIndex index="1">ANFRAGEN_BEARBEITEN</numIndex>
+									</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">Anfragen anzeigen (Gäste)</numIndex>
+										<numIndex index="1">ANFRAGEN_ANZEIGEN</numIndex>
+									</numIndex>
+									<numIndex index="6" type="array">
+										<numIndex index="0">Logout Formular</numIndex>
+										<numIndex index="1">LOGOUT_FORMULAR</numIndex>
+									</numIndex>
+									<numIndex index="7" type="array">
+										<numIndex index="0">Anfragenstatistik anzeigen</numIndex>
+										<numIndex index="1">ANFRAGENSTATISTIK</numIndex>
+									</numIndex>
+								</items>
+								</config>
+						</TCEforms>
+					</sb_funktion>
+					<gadgetkuerzel>
+						<TCEforms>
+						<exclude>1</exclude>
+							<displayCond>FIELD:mode:IN:GADGETS</displayCond>
+							<label>Eigene Gadgets</label>
+							<onChange>reload</onChange>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0" type="array">
+										<numIndex index="0">Personensuche</numIndex>
+										<numIndex index="1">PERS</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">Hochschule A-Z</numIndex>
+										<numIndex index="1">HOCHSCHULE_A_BIS_Z</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">Raumsuche</numIndex>
+										<numIndex index="1">RAUM</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">VVS Gadget</numIndex>
+										<numIndex index="1">VVS</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</gadgetkuerzel>
+					<vvs>
+						<TCEforms>
+						<displayCond>FIELD:gadgetkuerzel:IN:VVS</displayCond>
+							<label>Standort wählen</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0" type="array">
+										<numIndex index="0">Stadtmitte</numIndex>
+										<numIndex index="1">SM</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">Flandernstraße</numIndex>
+										<numIndex index="1">FL</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">Göppingen</numIndex>
+										<numIndex index="1">GP</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">Alle Standorte mit Einstellung</numIndex>
+										<numIndex index="1">ALLE</numIndex>
+									</numIndex>
+								</items>
+							</config>							
+							</TCEforms>
+					</vvs>
+					<dataview>
+						<TCEforms>
+						<exclude>1</exclude>
+							<displayCond>FIELD:mode:IN:DATA_VIEW</displayCond>
+							<label>Anzeige von speziellen Daten</label>
+							<onChange>reload</onChange>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0" type="array">
+										<numIndex index="0">Hochschule A-Z</numIndex>
+										<numIndex index="1">HOCHSCHULE_A_BIS_Z</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">Abfall A-Z</numIndex>
+										<numIndex index="1">ABFALL_A_BIS_Z</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">EDV-Vorzugsliste</numIndex>
+										<numIndex index="1">EDV_VORZUGSLISTE</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">Bestellshop GUP</numIndex>
+										<numIndex index="1">SHOP_GUP</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">Bestellshop RÖM</numIndex>
+										<numIndex index="1">SHOP_ROEM</numIndex>
+									</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">Bestellshop RZ/Verbrauchsmaterial</numIndex>
+										<numIndex index="1">SHOP_RZ_VERBRAUCHSMATERIAL</numIndex>
+									</numIndex>
+									<numIndex index="6" type="array">
+										<numIndex index="0">Bestellshop RZ/Software</numIndex>
+										<numIndex index="1">SHOP_RZ_SOFTWARE</numIndex>
+									</numIndex>
+									<numIndex index="7" type="array">
+										<numIndex index="0">Bestellshop TA/Möbel</numIndex>
+										<numIndex index="1">SHOP_TA_MOEBEL</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</dataview>
+					<studiengang_lsf>
+						<TCEforms>
+								<displayCond>FIELD:mode:IN:MODULUEBERSICHT_LSF,MODULUEBERSICHT_LSF_VERT,MODULHANDBUCH_LSF</displayCond>
+							<label>Studiengang wählen</label>
+							<config>
+								<type>select</type>
+								<itemsProcFunc><![CDATA[EXT:he_tools/lib/class.tx_he_tools_module.php:&tx_he_tools_module->gibStudiengaenge]]></itemsProcFunc>
+																<itemListStyle>width:400px</itemListStyle>
+								<size>30</size>
+								<maxitems>2</maxitems>
+								<minitems>1</minitems>
+							</config>							
+							</TCEforms>
+					</studiengang_lsf>
+					<vertiefung_lsf>
+						<TCEforms>
+								<displayCond>FIELD:mode:IN:MODULUEBERSICHT_LSF,MODULUEBERSICHT_LSF_VERT,MODULHANDBUCH_LSF</displayCond>
+							<label>Einträge wählen</label>
+							<config>
+								<type>select</type>
+								<itemsProcFunc><![CDATA[EXT:he_tools/lib/class.tx_he_tools_module.php:&tx_he_tools_module->gibVertiefungen]]></itemsProcFunc>
+																<itemListStyle>width:400px</itemListStyle>
+								<size>30</size>
+								<maxitems>2</maxitems>
+								<minitems>0</minitems>
+							</config>							
+							</TCEforms>
+					</vertiefung_lsf>
+					<darstellungs_art>
+						<TCEforms>
+								<displayCond>FIELD:mode:IN:MODULUEBERSICHT_LSF,MODULUEBERSICHT_LSF_VERT,MODULHANDBUCH_LSF</displayCond>
+							<label>Darstellungsart</label>
+							<config>
+							<type>select</type>
+								<items type="array">
+									<numIndex index="1" type="array">		
+									<numIndex index="0">Tabellarisch</numIndex>
+									<numIndex index="1">TABELLE</numIndex>
+									</numIndex>		
+									<numIndex index="2" type="array">		
+									<numIndex index="0">Liste</numIndex>
+									<numIndex index="1">LISTE</numIndex>
+									</numIndex>		
+								</items>		
+							</config>
+						</TCEforms>
+					</darstellungs_art>
+					<spo_version>
+						<TCEforms>
+								<displayCond>FIELD:mode:IN:MODUL_TABELLE,MODUL_HANDBUCH,MODUL_TABELLE_LSF,MODUL_HANDBUCH_LSF,MODULUEBERSICHT_LSF,MODULUEBERSICHT_LSF_VERT,MODULHANDBUCH_LSF</displayCond>
+							<label>SPO-Version</label>
+							<config>
+								<type>input</type>
+								<eval>num</eval>
+								<size>2</size>
+								<default>2</default>
+							</config>
+						</TCEforms>
+					</spo_version>
+					<max_col>
+						<TCEforms>
+								<displayCond>FIELD:mode:IN:MODUL_TABELLE,MODUL_HANDBUCH,MODUL_TABELLE_LSF,MODUL_HANDBUCH_LSF,MODULUEBERSICHT_LSF,MODULUEBERSICHT_LSF_VERT,MODULHANDBUCH_LSF</displayCond>
+							<label>Maximale Anzahl von Spalten</label>
+							<config>
+								<type>input</type>
+								<eval>num</eval>
+								<size>2</size>
+								<default>4</default>
+							</config>
+						</TCEforms>
+					</max_col>
+					<links_deaktivieren>
+						<TCEforms>
+								<displayCond>FIELD:mode:IN:MODUL_TABELLE,MODUL_HANDBUCH,MODUL_TABELLE_LSF,MODUL_HANDBUCH_LSF,MODULUEBERSICHT_LSF,MODULUEBERSICHT_LSF_VERT,MODULHANDBUCH_LSF</displayCond>
+							<label>Links in der Tabelle deaktivieren</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</links_deaktivieren>
+					<studiengang>
+						<TCEforms>
+							<displayCond>FIELD:mode:IN:MODUL_TABELLE,MODUL_HANDBUCH,MODUL_TABELLE_LSF,MODUL_HANDBUCH_LSF</displayCond>
+							<label>Studiengang</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="1" type="array">		
+									<numIndex index="0">Bildung und Erziehung in der Kindheit</numIndex>
+									<numIndex index="1">Bildung und Erziehung in der Kindheit</numIndex>
+									</numIndex>		
+									<numIndex index="2" type="array">		
+									<numIndex index="0">Biotechnologie</numIndex>
+									<numIndex index="1">Biotechnologie</numIndex>
+									</numIndex>		
+									<numIndex index="3" type="array">		
+									<numIndex index="0">Chemieingenieurwesen / Farbe und Lack</numIndex>
+									<numIndex index="1">Chemieingenieurwesen / Farbe und Lack</numIndex>
+									</numIndex>		
+									<numIndex index="4" type="array">		
+									<numIndex index="0">Fahrzeugtechnik</numIndex>
+									<numIndex index="1">Fahrzeugtechnik</numIndex>
+									</numIndex>		
+									<numIndex index="4a" type="array">		
+									<numIndex index="0">Gebäude- Energie- und Umwelttechnik</numIndex>
+									<numIndex index="1">Gebäude- Energie- und Umwelttechnik</numIndex>
+									</numIndex>		
+									<numIndex index="5" type="array">		
+									<numIndex index="0">Ingenieurpädagogik Elektrotechnik-Informationstechnik (EIP)</numIndex>
+									<numIndex index="1">Ingenieurpädagogik Elektrotechnik-Informationstechnik (EIP)</numIndex>
+									</numIndex>		
+									<numIndex index="6" type="array">		
+									<numIndex index="0">Ingenieurpädagogik Fahrzeugtechnik-Maschinenbau (FMP)</numIndex>
+									<numIndex index="1">Ingenieurpädagogik Fahrzeugtechnik-Maschinenbau (FMP)</numIndex>
+									</numIndex>		
+									<numIndex index="7" type="array">		
+									<numIndex index="0">Ingenieurpädagogik Informationstechnik-Elektrotechnik (IEP)</numIndex>
+									<numIndex index="1">Ingenieurpädagogik Informationstechnik-Elektrotechnik (IEP)</numIndex>
+									</numIndex>		
+									<numIndex index="8" type="array">		
+									<numIndex index="0">Ingenieurpädagogik Maschinenbau-Automatisierungstechnik (MAP)</numIndex>
+									<numIndex index="1">Ingenieurpädagogik Maschinenbau-Automatisierungstechnik (MAP)</numIndex>
+									</numIndex>		
+									<numIndex index="9" type="array">		
+									<numIndex index="0">Internationale Technische Betriebswirtschaft</numIndex>
+									<numIndex index="1">Internationale Technische Betriebswirtschaft</numIndex>
+									</numIndex>		
+									<numIndex index="9a" type="array">		
+									<numIndex index="0">Internationale Technische Betriebswirtschaft (SPO3)</numIndex>
+									<numIndex index="1">Internationale Technische Betriebswirtschaft (SPO3)</numIndex>
+									</numIndex>		
+									<numIndex index="10" type="array">		
+									<numIndex index="0">Internationales Wirtschaftsingenieurwesen</numIndex>
+									<numIndex index="1">Internationales Wirtschaftsingenieurwesen</numIndex>
+									</numIndex>		
+									<numIndex index="11" type="array">		
+									<numIndex index="0">Kommunikationstechnik</numIndex>
+									<numIndex index="1">Kommunikationstechnik</numIndex>
+									</numIndex>		
+									<numIndex index="12" type="array">		
+									<numIndex index="0">Maschinenbau / Entwicklung und Konstruktion</numIndex>
+									<numIndex index="1">Maschinenbau / Entwicklung und Konstruktion</numIndex>
+									</numIndex>		
+									<numIndex index="13" type="array">		
+									<numIndex index="0">Maschinenbau / Entwicklung und Produktion</numIndex>
+									<numIndex index="1">Maschinenbau / Entwicklung und Produktion</numIndex>
+									</numIndex>		
+									<numIndex index="14" type="array">		
+									<numIndex index="0">Mechatronik / Automatisierungstechnik</numIndex>
+									<numIndex index="1">Mechatronik / Automatisierungstechnik</numIndex>
+									</numIndex>	
+									<numIndex index="15" type="array">		
+									<numIndex index="0">Mechatronik / Elektrotechnik</numIndex>
+									<numIndex index="1">Mechatronik / Elektrotechnik</numIndex>
+									</numIndex>		
+									<numIndex index="16" type="array">		
+									<numIndex index="0">Mechatronik / Feinwerk- und Mikrotechnik</numIndex>
+									<numIndex index="1">Mechatronik / Feinwerk- und Mikrotechnik</numIndex>
+									</numIndex>	
+									<numIndex index="17" type="array">	
+									<numIndex index="0">MechatronikPlus</numIndex>
+									<numIndex index="1">MechatronikPlus</numIndex>
+									</numIndex>	
+									<numIndex index="18" type="array">	
+									<numIndex index="0">Pflege / Pflegemanagement</numIndex>
+									<numIndex index="1">Pflege / Pflegemanagement</numIndex>
+									</numIndex>	
+									<numIndex index="19" type="array">	
+									<numIndex index="0">Pflegepädagogik</numIndex>
+									<numIndex index="1">Pflegepädagogik</numIndex>
+									</numIndex>	
+									<numIndex index="20" type="array">	
+									<numIndex index="0">Softwaretechnik und Medieninformatik (Schwerpunkt Medientechnik)</numIndex>
+									<numIndex index="1">Softwaretechnik und Medieninformatik (Schwerpunkt Medientechnik)</numIndex>
+									</numIndex>	
+									<numIndex index="21" type="array">	
+									<numIndex index="0">Softwaretechnik und Medieninformatik (Schwerpunkt Softwaretechnik)</numIndex>
+									<numIndex index="1">Softwaretechnik und Medieninformatik (Schwerpunkt Softwaretechnik)</numIndex>
+									</numIndex>	
+									<numIndex index="22" type="array">	
+									<numIndex index="0">Soziale Arbeit</numIndex>
+									<numIndex index="1">Soziale Arbeit</numIndex>
+									</numIndex>	
+									<numIndex index="23" type="array">	
+									<numIndex index="0">Studienmodell: BMW SpeedUp (neu ab 2010)</numIndex>
+									<numIndex index="1">Studienmodell: BMW SpeedUp (neu ab 2010)</numIndex>
+									</numIndex>	
+									<numIndex index="24" type="array">	
+									<numIndex index="0">Studienmodell: PSM - Praxisintegriertes Studium</numIndex>
+									<numIndex index="1">Studienmodell: PSM - Praxisintegriertes Studium</numIndex>
+									</numIndex>	
+									<numIndex index="25" type="array">	
+									<numIndex index="0">Technische Informatik</numIndex>
+									<numIndex index="1">Technische Informatik</numIndex>
+									</numIndex>	
+									<numIndex index="26" type="array">	
+									<numIndex index="0">Versorgungstechnik und Umwelttechnik</numIndex>
+									<numIndex index="1">Versorgungstechnik und Umwelttechnik</numIndex>
+									</numIndex>	
+									<numIndex index="27" type="array">	
+									<numIndex index="0">Wirtschaftsinformatik</numIndex>
+									<numIndex index="1">Wirtschaftsinformatik</numIndex>
+									</numIndex>	
+									<numIndex index="28" type="array">	
+									<numIndex index="0">Wirtschaftsingenieurwesen</numIndex>
+									<numIndex index="1">Wirtschaftsingenieurwesen</numIndex>
+									</numIndex>	
+									<numIndex index="28a" type="array">	
+									<numIndex index="0">Wirtschaftsingenieurwesen (SPO3)</numIndex>
+									<numIndex index="1">Wirtschaftsingenieurwesen (SPO3)</numIndex>
+									</numIndex>	
+									<numIndex index="29" type="array">	
+									<numIndex index="0">Angewandte Oberflächen- und Materialwissenschaften</numIndex>
+									<numIndex index="1">Angewandte Oberflächen- und Materialwissenschaften</numIndex>
+									</numIndex>	
+									<numIndex index="30" type="array">	
+									<numIndex index="0">Automotive Systems</numIndex>
+									<numIndex index="1">Automotive Systems</numIndex>
+									</numIndex>	
+									<numIndex index="31" type="array">	
+									<numIndex index="0">Design and Development in Automotive and Mechanical Engineering</numIndex>
+									<numIndex index="1">Design and Development in Automotive and Mechanical Engineering</numIndex>
+									</numIndex>	
+									<numIndex index="32" type="array">	
+									<numIndex index="0">Energie- und Gebäudetechnik</numIndex>
+									<numIndex index="1">Energie- und Gebäudetechnik</numIndex>
+									</numIndex>	
+									<numIndex index="32a" type="array">	
+									<numIndex index="0">Energiesysteme und Energiemanagment</numIndex>
+									<numIndex index="1">Energiesysteme und Energiemanagment</numIndex>
+									</numIndex>	
+									<numIndex index="33" type="array">	
+									<numIndex index="0">International Industrial Management (MBA)</numIndex>
+									<numIndex index="1">International Industrial Management (MBA)</numIndex>
+									</numIndex>	
+									<numIndex index="34" type="array">	
+									<numIndex index="0">Innovationsmanagement</numIndex>
+									<numIndex index="1">Innovationsmanagement</numIndex>
+									</numIndex>	
+									<numIndex index="35" type="array">	
+									<numIndex index="0">Pflegewissenschaften</numIndex>
+									<numIndex index="1">Pflegewissenschaften</numIndex>
+									</numIndex>	
+									<numIndex index="36" type="array">	
+									<numIndex index="0">Soziale Arbeit (Master)</numIndex>
+									<numIndex index="1">Soziale Arbeit (Master)</numIndex>
+									</numIndex>	
+									<numIndex index="37" type="array">	
+									<numIndex index="0">Sozialwirtschaft</numIndex>
+									<numIndex index="1">Sozialwirtschaft</numIndex>
+									</numIndex>
+									<numIndex index="37a" type="array">
+										<numIndex index="0">Technische Betriebswirtschaft/Automobilindustrie</numIndex>
+										<numIndex index="1">Technische Betriebswirtschaft/Automobilindustrie</numIndex>
+									</numIndex>
+
+									<numIndex index="38" type="array">	
+									<numIndex index="0">Umweltschutz</numIndex>
+									<numIndex index="1">Umweltschutz</numIndex>
+									</numIndex>	
+								</items>
+								<size>30</size>
+								<minitems></minitems>
+								<maxitems>99</maxitems>
+							</config>
+						</TCEforms>
+					</studiengang>
+					<schwerpunkt>
+						<TCEforms>
+							<displayCond>FIELD:mode:IN:MODUL_TABELLE,MODUL_HANDBUCH,MODUL_TABELLE_LSF,MODUL_HANDBUCH_LSF</displayCond>
+							<label>Schwerpunkt</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">Antrieb</numIndex>
+										<numIndex index="1">Antrieb</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">Car Electronics</numIndex>
+										<numIndex index="1">Car Electronics</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">Design and Manufacturing</numIndex>
+										<numIndex index="1">Design and Manufacturing</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">Elektrische Anlagen</numIndex>
+										<numIndex index="1">Elektrische Anlagen</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">Elektrische Antriebe</numIndex>
+										<numIndex index="1">Elektrische Antriebe</numIndex>
+									</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">Energie- und Gebäudetechnik (VUB / EGT)</numIndex>
+										<numIndex index="1">Energie- und Gebäudetechnik (VUB / EGT)</numIndex>
+									</numIndex>
+									<numIndex index="5a" type="array">
+										<numIndex index="0">Energietechnik (ET)</numIndex>
+										<numIndex index="1">Energietechnik (ET)</numIndex>
+									</numIndex>
+									<numIndex index="5b" type="array">
+										<numIndex index="0">Gebäudetechnik (GT)</numIndex>
+										<numIndex index="1">Gebäudetechnik (GT)</numIndex>
+									</numIndex>
+									<numIndex index="5c" type="array">
+										<numIndex index="0">Umwelttechnik (UT)</numIndex>
+										<numIndex index="1">Umwelttechnik (UT)</numIndex>
+									</numIndex>
+									<numIndex index="6" type="array">
+										<numIndex index="0">Fahrwerk und Regelsysteme</numIndex>
+										<numIndex index="1">Fahrwerk und Regelsysteme</numIndex>
+									</numIndex>
+									<numIndex index="7" type="array">
+										<numIndex index="0">Feinwerktechnik</numIndex>
+										<numIndex index="1">Feinwerktechnik</numIndex>
+									</numIndex>
+									<numIndex index="8" type="array">
+										<numIndex index="0">Karosserie</numIndex>
+										<numIndex index="1">Karosserie</numIndex>
+									</numIndex>
+									<numIndex index="9" type="array">
+										<numIndex index="0">Kfz-Elektronik</numIndex>
+										<numIndex index="1">Kfz-Elektronik</numIndex>
+									</numIndex>
+									<numIndex index="10" type="array">
+										<numIndex index="0">Komponenten der Automatisierungstechnik</numIndex>
+										<numIndex index="1">Komponenten der Automatisierungstechnik</numIndex>
+									</numIndex>
+									<numIndex index="10a" type="array">		
+										<numIndex index="0">Entwicklung und Konstruktion</numIndex>
+										<numIndex index="1">Entwicklung und Konstruktion</numIndex>
+									</numIndex>		
+									<numIndex index="10b" type="array">		
+										<numIndex index="0">Entwicklung und Produktion</numIndex>
+										<numIndex index="1">Entwicklung und Produktion</numIndex>
+									</numIndex>		
+									<numIndex index="11" type="array">
+										<numIndex index="0">Mechatronics</numIndex>
+										<numIndex index="1">Mechatronics</numIndex>
+									</numIndex>
+									<numIndex index="12" type="array">
+										<numIndex index="0">Medientechnik</numIndex>
+										<numIndex index="1">Medientechnik</numIndex>
+									</numIndex>
+									<numIndex index="13" type="array">
+										<numIndex index="0">Mikrosystemtechnik (ETB)</numIndex>
+										<numIndex index="1">Mikrosystemtechnik (ETB)</numIndex>
+									</numIndex>
+									<numIndex index="14" type="array">
+										<numIndex index="0">Mikrosystemtechnik (FMB)</numIndex>
+										<numIndex index="1">Mikrosystemtechnik (FMB)</numIndex>
+									</numIndex>
+									<numIndex index="15" type="array">
+										<numIndex index="0">Service</numIndex>
+										<numIndex index="1">Service</numIndex>
+									</numIndex>
+									<numIndex index="16" type="array">
+										<numIndex index="0">Software Based Automotive Systems</numIndex>
+										<numIndex index="1">Software Based Automotive Systems</numIndex>
+									</numIndex>
+									<numIndex index="17" type="array">
+										<numIndex index="0">Software - Feldbusse und Netze</numIndex>
+										<numIndex index="1">Software - Feldbusse und Netze</numIndex>
+									</numIndex>
+									<numIndex index="18" type="array">
+										<numIndex index="0">Softwaretechnik</numIndex>
+										<numIndex index="1">Softwaretechnik</numIndex>
+									</numIndex>
+									<numIndex index="19" type="array">
+										<numIndex index="0">Umwelt - Wasser - Abwasser (VUB / UWA)</numIndex>
+										<numIndex index="1">Umwelt - Wasser - Abwasser (VUB / UWA)</numIndex>
+									</numIndex>
+									<numIndex index="20" type="array">
+										<numIndex index="0">Vehicle Dynamics</numIndex>
+										<numIndex index="1">Vehicle Dynamics</numIndex>
+									</numIndex>
+								</items>
+								<size>30</size>
+								<minitems></minitems>
+								<maxitems>99</maxitems>
+							</config>
+						</TCEforms>
+					</schwerpunkt>
+					<hex_image>
+						<TCEforms>
+								<displayCond>FIELD:mode:IN:HOCHSCHULEXPRESS,HOCHSCHULTICKER</displayCond>
+							<label>Bild für Bereich</label>
+							<config>
+								<type>group</type>
+								<internal_type>file</internal_type>
+								<allowed>gif,jpg,jpeg,png</allowed>
+								<show_thumbs>true</show_thumbs>
+								<minitems>1</minitems>
+								<maxitems>1</maxitems>
+								<rows>1</rows>
+							</config>
+						</TCEforms>
+					</hex_image>
+					<hex_bereichstitel>
+						<TCEforms>
+								<displayCond>FIELD:mode:IN:HOCHSCHULEXPRESS,HOCHSCHULTICKER</displayCond>
+							<label>Titel des Bereichs</label>
+							<config>
+								<type>input</type>
+								<size>80</size>
+							</config>
+						</TCEforms>
+					</hex_bereichstitel>
+					<hex_ueberschrift>
+						<TCEforms>
+								<displayCond>FIELD:mode:IN:HOCHSCHULEXPRESS</displayCond>
+							<label>Überschrift rechts</label>
+							<config>
+								<type>input</type>
+								<size>80</size>
+							</config>
+						</TCEforms>
+					</hex_ueberschrift>
+					<hex_spalte_links>
+						<TCEforms>
+								<displayCond>FIELD:mode:IN:HOCHSCHULEXPRESS</displayCond>
+							<label>Spalte links</label>
+							<config>
+								<type>text</type>
+								<cols>80</cols>
+								<rows>20</rows>
+							</config>
+							<defaultExtras>richtext[]:rte_transform[mode=css]</defaultExtras>
+						</TCEforms>
+					</hex_spalte_links>
+					<hex_spalte_rechts>
+						<TCEforms>
+								<displayCond>FIELD:mode:IN:HOCHSCHULEXPRESS,HOCHSCHULTICKER</displayCond>
+							<label>Spalte rechts</label>
+							<config>
+								<type>text</type>
+								<cols>80</cols>
+								<rows>20</rows>
+							</config>
+							<defaultExtras>richtext[]:rte_transform[mode=css]</defaultExtras>
+						</TCEforms>
+					</hex_spalte_rechts>
+					<faq_eintraege>
+						<TCEforms>
+								<displayCond>FIELD:mode:IN:FAQ_EINTRAEGE</displayCond>
+							<label>Einträge wählen</label>
+							<config>
+								<type>select</type>
+								<itemsProcFunc><![CDATA[EXT:he_tools/lib/class.tx_he_tools_spezial_elemente.php:&tx_he_tools_spezial_elemente->getFaqEntries]]></itemsProcFunc>
+																<itemListStyle>width:400px</itemListStyle>
+								<size>12</size>
+								<maxitems>100</maxitems>
+								<minitems>0</minitems>
+							</config>							
+							</TCEforms>
+					</faq_eintraege>
+					<faq_layout>
+						<TCEforms>
+								<displayCond>FIELD:mode:IN:FAQ_EINTRAEGE</displayCond>
+							<label>Layout wählen</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">Info-Blase</numIndex>
+										<numIndex index="1">BUBBLE</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">FAQs aufgeklappt</numIndex>
+										<numIndex index="1">FAQ_OPEN</numIndex>
+									</numIndex>		
+									<numIndex index="2" type="array">
+										<numIndex index="0">FAQs zugeklappt</numIndex>
+										<numIndex index="1">FAQ_CLOSED</numIndex>
+									</numIndex>		
+									</items>								
+								</config>							
+							</TCEforms>
+					</faq_layout>
+					</el>
+			</ROOT>
+		</sDEF>
+		<settings>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>Einstellungen</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<toolskuerzel>
+						<TCEforms>
+						<exclude>1</exclude>
+							<label>Funktionen auswählen</label>
+							<onChange>reload</onChange>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0" type="array">
+										<numIndex index="0">Seiteninhalt</numIndex>
+										<numIndex index="1">SEITENINHALT</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">Contentelement</numIndex>
+										<numIndex index="1">CONTENTELEMENT</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">Personensuche</numIndex>
+										<numIndex index="1">PERS</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">Hochschule A-Z</numIndex>
+										<numIndex index="1">HOCHSCHULE_A_BIS_Z</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">Google Maps</numIndex>
+										<numIndex index="1">GOOGLE_MAPS</numIndex>
+									</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">Abfall A-Z</numIndex>
+										<numIndex index="1">ABFALL_A_BIS_Z</numIndex>
+									</numIndex>
+									<numIndex index="5a" type="array">
+										<numIndex index="0">Flinc</numIndex>
+										<numIndex index="1">FLINC</numIndex>
+									</numIndex>
+									<numIndex index="6" type="array">
+										<numIndex index="0">Wer Macht Was</numIndex>
+										<numIndex index="1">WER_MACHT_WAS_A_BIS_Z</numIndex>
+									</numIndex>
+									<numIndex index="7" type="array">
+										<numIndex index="0">Infoscreen</numIndex>
+										<numIndex index="1">INFOSCREEN</numIndex>
+									</numIndex>
+									<numIndex index="8" type="array">
+										<numIndex index="0">Veranstaltungen</numIndex>
+										<numIndex index="1">VERANSTALTUNGEN</numIndex>
+									</numIndex>
+									<numIndex index="9" type="array">
+										<numIndex index="0">Campus Leben</numIndex>
+										<numIndex index="1">CAMPUS_LEBEN</numIndex>
+									</numIndex>
+									<numIndex index="10" type="array">
+										<numIndex index="0">Microsoft KMS Formular</numIndex>
+										<numIndex index="1">KMS_ANTRAG</numIndex>
+									</numIndex>
+									<numIndex index="11" type="array">
+										<numIndex index="0">Htaccess-Hilfe</numIndex>
+										<numIndex index="1">HTACCESS_HILFE</numIndex>
+									</numIndex>
+									<numIndex index="14" type="array">
+										<numIndex index="0">Kalender Export</numIndex>
+										<numIndex index="1">CAL_EXPORT</numIndex>
+									</numIndex>
+									<numIndex index="15" type="array">
+										<numIndex index="0">Mensa Speiseplan</numIndex>
+										<numIndex index="1">MENSA_SPEISEPLAN</numIndex>
+									</numIndex>
+																	<numIndex index="16" type="array">
+										<numIndex index="0">Spezialfunktion</numIndex>
+										<numIndex index="1">SPEZIAL</numIndex>
+									</numIndex>
+																	<numIndex index="17" type="array">
+										<numIndex index="0">Datenimport RZ</numIndex>
+										<numIndex index="1">DATENIMPORT_RZ</numIndex>
+									</numIndex>
+																	<numIndex index="18" type="array">
+										<numIndex index="0">Link zum Shibboleth-Login mit Redirect</numIndex>
+										<numIndex index="1">SHIB_LOGIN_REDIRECT</numIndex>
+									</numIndex>
+																	<numIndex index="19" type="array">
+										<numIndex index="0">Gast Kennungen beantragen</numIndex>
+										<numIndex index="1">GASTKENNUNG_BEANTRAGEN</numIndex>
+									</numIndex>
+									<numIndex index="19a" type="array">
+										<numIndex index="0">Gast Kennungen Verwalten</numIndex>
+										<numIndex index="1">GASTKENNUNG_VERWALTEN</numIndex>
+									</numIndex>
+									<numIndex index="20" type="array">
+										<numIndex index="0">Anmeldeformular RZ-Einführungsveranstaltungen</numIndex>
+										<numIndex index="1">RZ_EINFUEHRUNG_ANMELDUNG</numIndex>
+									</numIndex>
+									<numIndex index="21" type="array">
+										<numIndex index="0">Browserinformationen anzeigen</numIndex>
+										<numIndex index="1">SHOW_BROWSERINFO</numIndex>
+									</numIndex>
+																		<numIndex index="22" type="array">
+																				<numIndex index="0">RÖM-Geschenke anzeigen</numIndex>
+																				<numIndex index="1">SHOP_ROEM_GESCHENKE</numIndex>
+																		</numIndex>
+																		<numIndex index="23" type="array">
+																				<numIndex index="0">GU QR-Admin</numIndex>
+																				<numIndex index="1">GU_QR_ADMIN</numIndex>
+																		</numIndex>
+																</items>
+							</config>
+						</TCEforms>
+					</toolskuerzel>
+										<veranstaltungen>
+												<TCEforms>
+														<displayCond>FIELD:toolskuerzel:IN:VERANSTALTUNGEN</displayCond>
+														<exclude>1</exclude>
+														<label>Funktionen auswählen</label>
+														<config>
+																<type>select</type>
+																<items>
+																		<numIndex index="0" type="array">
+																				<numIndex index="0">Veranstaltungsanmeldung</numIndex>
+																				<numIndex index="1">VERANSTALTUNGS_ANMELDUNG</numIndex>
+																		</numIndex>
+																		<numIndex index="1" type="array">
+																				<numIndex index="0">Technolino Terminanzeige</numIndex>
+																				<numIndex index="1">TECHNOLINO_TERMINANZEIGE</numIndex>
+																		</numIndex>
+																		<numIndex index="2" type="array">
+																				<numIndex index="0">Technolino Datenexport</numIndex>
+																				<numIndex index="1">TECHNOLINO_DATENEXPORT</numIndex>
+																		</numIndex>
+																</items>
+														</config>
+												</TCEforms>
+										</veranstaltungen>
+										<spezialfunktionen>
+						<TCEforms>
+						<displayCond>FIELD:toolskuerzel:IN:SPEZIAL</displayCond>
+							<label>Kürzel</label>
+							<config>
+								<type>input</type>
+								<size>20</size>
+								<default>1</default>
+							</config>
+						</TCEforms>
+					</spezialfunktionen>
+ 					<login_anzeigetext>
+						<TCEforms>
+						<displayCond>FIELD:toolskuerzel:IN:SHIB_LOGIN_REDIRECT</displayCond>
+							<label>Anzeigetext für den Link</label>
+							<config>
+								<type>text</type>
+								<cols>80</cols>
+								<rows>20</rows>
+							</config>
+						</TCEforms>
+					</login_anzeigetext>
+					
+					<datenimport_modus>
+						<TCEforms>
+						<displayCond>FIELD:toolskuerzel:IN:DATENIMPORT_RZ</displayCond>
+							<label>Modus</label>
+							<config>
+								<type>input</type>
+								<size>20</size>
+								<default>1</default>
+							</config>
+						</TCEforms>
+					</datenimport_modus>
+					<iframe_url>
+						<TCEforms>
+						<displayCond>FIELD:toolskuerzel:IN:GOOGLE_MAPS</displayCond>
+							<label>URL eingeben</label>
+							<config>
+								<type>input</type>
+								<size>120</size>
+							</config>
+						</TCEforms>
+					</iframe_url>
+					<iframe_hoehe>
+						<TCEforms>
+						<displayCond>FIELD:toolskuerzel:IN:GOOGLE_MAPS</displayCond>
+							<label>Höhe des Iframes</label>
+							<config>
+								<type>input</type>
+								<eval>num</eval>
+								<size>10</size>
+								<default>400</default>
+							</config>
+						</TCEforms>
+					</iframe_hoehe>
+					<campus_leben_imglink>
+						<TCEforms>
+							<displayCond>FIELD:toolskuerzel:IN:CAMPUS_LEBEN</displayCond>
+							<label>URL des Links für die Grafik</label>
+							<config>
+								<type>input</type>
+								<size>120</size>
+							</config>
+						</TCEforms>
+					</campus_leben_imglink>
+					<campus_leben_link>
+						<TCEforms>
+						<displayCond>FIELD:toolskuerzel:IN:CAMPUS_LEBEN</displayCond>
+							<label>URL des Links</label>
+							<config>
+								<type>input</type>
+								<size>120</size>
+							</config>
+						</TCEforms>
+					</campus_leben_link>
+					<campus_leben_email>
+						<TCEforms>
+						<displayCond>FIELD:toolskuerzel:IN:CAMPUS_LEBEN</displayCond>
+							<label>E-Mail-Adresse</label>
+							<config>
+								<type>input</type>
+								<size>120</size>
+							</config>
+						</TCEforms>
+					</campus_leben_email>
+					<infoscreen_app>
+						<TCEforms>
+						<displayCond>FIELD:toolskuerzel:IN:INFOSCREEN</displayCond>
+							<label>Anwendung auswählen</label>
+							<onChange>reload</onChange>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">		
+										<numIndex index="0">Zentrale Weiterleitung</numIndex>
+										<numIndex index="1">MAIN</numIndex>
+									</numIndex>		
+									<numIndex index="1" type="array">		
+										<numIndex index="0">Kalendertermine</numIndex>
+										<numIndex index="1">KALENDERTERMINE</numIndex>
+									</numIndex>
+                                    <numIndex index="1b" type="array">
+                                            <numIndex index="0">Seitenelement anzeigen</numIndex>
+                                            <numIndex index="1">SEITENINHALT</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1c" type="array">
+										<numIndex index="0">Flexible Ansicht</numIndex>
+										<numIndex index="1">FLEXIBEL</numIndex>
+									</numIndex>
+                                    <numIndex index="1d" type="array">
+                                            <numIndex index="0">Alle Seitenelemente einer Seite anzeigen</numIndex>
+                                            <numIndex index="1">SEITENINHALT_LISTE</numIndex>
+                                    </numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">Video</numIndex>
+										<numIndex index="1">VIDEO</numIndex>
+									</numIndex>	
+									<numIndex index="3" type="array">		
+										<numIndex index="0">Übersichtsseite</numIndex>
+										<numIndex index="1">UEBERSICHT</numIndex>
+									</numIndex>		
+								</items>
+							</config>
+						</TCEforms>
+					</infoscreen_app>
+					<infoscreen_elemente>
+						<TCEforms>
+						<displayCond>FIELD:infoscreen_app:IN:FLEXIBEL</displayCond>
+							<label>Zeitgesteuerte Anzeigen</label>
+							<config>
+								<type>select</type>
+								<itemListStyle>width:400px</itemListStyle>
+								<foreign_table>tx_hetools_infoscreen_anzeige_zeitraeume</foreign_table>
+								<size>8</size>
+								<minitems></minitems>
+								<maxitems>8</maxitems>
+								<wizards type="array">
+								 <_PADDING type="integer">2</_PADDING>
+								 <add>
+								 <type>popup</type>
+								 <title>Neuer Eintrag</title>
+								 <icon>add.gif</icon>
+								 <script>wizard_add.php</script>
+								 <JSopenParams>height=500,width=800,status=0,menubar=0,scrollbars=1</JSopenParams>
+								 <params> 
+											<table>tx_hetools_infoscreen_anzeige_zeitraeume</table> 
+											<pid>136063</pid> 
+											<setValue>prepend</setValue> 
+								 </params>
+								 </add>								 
+								</wizards>	 
+								</config>
+						</TCEforms>
+					</infoscreen_elemente>
+					<infoscreen_delay>
+						<TCEforms>
+						<displayCond>FIELD:toolskuerzel:IN:INFOSCREEN</displayCond>
+							<label>Änderung prüfen nach wieviel Sekunden?</label>
+							<config>
+								<type>input</type>
+								<eval>num</eval>
+								<size>5</size>
+								<default>1</default>
+							</config>
+						</TCEforms>
+					</infoscreen_delay>
+					<infoscreen_force_reload>
+						<TCEforms>
+						<displayCond>FIELD:toolskuerzel:IN:INFOSCREEN</displayCond>
+							<label>Neuladen erzwingen nach wieviel Minuten?</label>
+							<config>
+								<type>input</type>
+								<eval>num</eval>
+								<size>5</size>
+								<default>60</default>
+							</config>
+						</TCEforms>
+					</infoscreen_force_reload>
+ 					<infoscreen_sponsoren>
+						<TCEforms>
+						<displayCond>FIELD:infoscreen_app:IN:KALENDERTERMINE,FLEXIBEL,SEITENINHALT</displayCond>
+							<label>Sponsorenzeile anzeigen?</label>
+							<config>
+								<type>select</type>
+								<foreign_table>pages</foreign_table>
+								<foreign_table_where>
+											AND (
+												pages.uid IN (SELECT uid FROM pages where pid = 132598)
+											)
+											ORDER BY title
+								</foreign_table_where>
+								<size>8</size>
+								<minitems></minitems>
+								<maxitems>2</maxitems>
+							</config>
+						</TCEforms>
+					</infoscreen_sponsoren>
+					<infoscreen_standort>
+						<TCEforms>
+						<displayCond>FIELD:infoscreen_app:IN:KALENDERTERMINE,FLEXIBEL,SEITENINHALT</displayCond>
+							<label>Standort des Infoscreens</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">		
+										<numIndex index="0">Esslingen Flandernstraße</numIndex>
+										<numIndex index="1">efl</numIndex>
+									</numIndex>		
+									<numIndex index="1" type="array">		
+										<numIndex index="0">Esslingen Stadtmitte</numIndex>
+										<numIndex index="1">esm</numIndex>
+									</numIndex>		
+									<numIndex index="2" type="array">		
+										<numIndex index="0">Göppingen</numIndex>
+										<numIndex index="1">gp</numIndex>
+									</numIndex>	
+								</items>								
+							</config>
+						</TCEforms>
+					</infoscreen_standort>
+					<infoscreen_gebaeude>
+						<TCEforms>
+						<displayCond>FIELD:infoscreen_app:IN:KALENDERTERMINE,FLEXIBEL,SEITENINHALT,SEITENINHALT_LISTE</displayCond>
+							<label>Meldung für "Sie befinden sich in Gebäude"</label>
+							<config>
+								<type>input</type>
+								<size>80</size>								
+							</config>
+						</TCEforms>
+					</infoscreen_gebaeude>
+                    <infoscreen_standard_anzeigetext>
+                        <TCEforms>
+                            <displayCond>FIELD:infoscreen_app:IN:SEITENINHALT_LISTE</displayCond>
+                            <label>Standardtext (wenn auf der Seite keine Inhalte aktiviert sind)</label>
+                            <config>
+                                <type>input</type>
+                                <size>80</size>
+                            </config>
+                        </TCEforms>
+                    </infoscreen_standard_anzeigetext>
+                    <infoscreen_cal_daueranzeige>
+						<TCEforms>
+						<displayCond>FIELD:infoscreen_app:IN:KALENDERTERMINE,FLEXIBEL,SEITENINHALT_LISTE</displayCond>
+							<label>Dauer der Anzeige in Sekunden (nur bei mehreren Terminen relevant)</label>
+							<config>
+								<type>input</type>
+								<eval>num</eval>
+								<size>5</size>
+								<default>10</default>
+							</config>
+						</TCEforms>
+					</infoscreen_cal_daueranzeige>
+					<infoscreen_cal_daueruebergang>
+						<TCEforms>
+						<displayCond>FIELD:infoscreen_app:IN:KALENDERTERMINE,FLEXIBEL,SEITENINHALT_LISTE</displayCond>
+							<label>Dauer des Übergangs zwischen zwei Terminen in Sekunden (nur bei mehreren Terminen relevant)</label>
+							<config>
+								<type>input</type>
+								<eval>num</eval>
+								<size>5</size>
+								<default>2</default>
+							</config>
+						</TCEforms>
+					</infoscreen_cal_daueruebergang>
+					<infoscreen_cal_cat>
+						<TCEforms>
+						<displayCond>FIELD:infoscreen_app:IN:KALENDERTERMINE</displayCond>
+							<label>Kalenderkategorie auswählen</label>
+							<config>
+								<type>select</type>
+								<foreign_table>tx_cal_category</foreign_table>
+								<foreign_table_where>
+											AND (
+												tx_cal_category.parent_category IN
+												(SELECT uid FROM tx_cal_category WHERE title LIKE "Infoscreen gesamt")
+											OR 
+												tx_cal_category.title LIKE "Infoscreen gesamt"
+											)
+											ORDER BY tx_cal_category.uid
+								</foreign_table_where>
+								<size>8</size>
+								<minitems>1</minitems>
+								<maxitems>1</maxitems>
+							</config>
+						</TCEforms>
+					</infoscreen_cal_cat>
+ 					<infoscreen_seiteninhalt>
+						<TCEforms>
+						<displayCond>FIELD:infoscreen_app:IN:SEITENINHALT</displayCond>
+							<label>Seiteninhalt anzeigen</label>
+							<config>
+								<type>select</type>
+								<foreign_table>tt_content</foreign_table>
+								<foreign_table_where>
+											AND (
+												tt_content.pid = 136063
+											)
+											ORDER BY title
+								</foreign_table_where>
+								<size>8</size>
+								<minitems>1</minitems>
+								<maxitems>2</maxitems>
+							</config>
+						</TCEforms>
+					</infoscreen_seiteninhalt>
+                    <infoscreen_seiteninhalt_seite>
+                        <TCEforms>
+                            <displayCond>FIELD:infoscreen_app:IN:SEITENINHALT_LISTE</displayCond>
+                            <label>Seiteninhalt anzeigen</label>
+                            <config>
+                                <type>group</type>
+                                <internal_type>db</internal_type>
+                                <allowed>pages</allowed>
+                                <size>1</size>
+                                <minitems>1</minitems>
+                                <maxitems>1</maxitems>
+                            </config>
+                        </TCEforms>
+                    </infoscreen_seiteninhalt_seite>
+                   <infoscreen_video>
+						<TCEforms>
+						<displayCond>FIELD:infoscreen_app:IN:VIDEO</displayCond>
+							<label>Videodatei auswählen</label>
+							<config>
+								<type>input</type>
+								<eval>trim</eval>
+								<default></default>
+								<wizards type="array">
+									<_PADDING>2</_PADDING>
+									<link type="array">
+										<type>popup</type>
+										<title>Link</title>
+										<icon>link_popup.gif</icon>
+										<script>browse_links.php?mode=wizard&amp;act=file</script>
+										<params type="array">
+											<blindLinkOptions>page,url,mail,spec</blindLinkOptions>
+										</params>
+										<JSopenParams>height=300,width=500,status=0,menubar=0,scrollbars=1</JSopenParams>
+									</link>
+								</wizards>
+							</config>
+						</TCEforms>
+					</infoscreen_video>
+ 				</el>
+			</ROOT>
+		</settings>
+	</sheets>
+</T3DataStructure>

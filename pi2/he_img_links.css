@@ -1,0 +1,486 @@
+	.tx-hetools-pi2 {
+		overflow: hidden;
+	}
+
+	.he_img_container {
+		float: left;
+		clear: left;
+		width: 520px;
+		padding: 10px;
+		background: #E5EEF1;
+		margin: 5px 0;
+	}
+
+	#elem_0.he_img_container {
+		margin-top: 10px;
+	}
+	
+	.he_jub_container {
+		float: left;
+		clear: left;
+		width: 540px;
+		background: transparent;
+		margin: 0;
+		padding: 0 0 40px 0;
+	}
+
+	.he_jub_container .left {
+		float: left;
+		width: 259px;
+		margin-right: 20px;
+	}
+	
+	.he_jub_container .content {
+		float: left;
+		width: 241px;
+		margin: 0 0 -10px 0;
+	}
+	
+	.he_jub_container .title {
+		background: #719db0 url(/fileadmin/images/layout/pfeil-rechts-weiss.png) 10px center no-repeat;
+		font-weight: bold;
+		color: #fff;
+		overflow: hidden;
+		font-size: 110%;
+		padding: 4px 10px 3px 24px;
+	}
+	
+	.he_jub_container .title a {
+		text-decoration: none;
+		font-weight: bold;
+		color: #fff;
+	}
+	
+	.he_jub_container .left img {
+		width: 259px;
+		margin: 0;
+		padding: 0;
+	}
+
+	.he_jub_container .content p {
+		float: left;
+		margin: 0;
+	}
+	
+	.he_jub_container ul {
+		margin: 0;
+    padding: 0;
+    list-style: none;
+    text-indent: -10px;		
+	}
+	
+	.he_jub_container li {
+		padding: 0;
+		margin: 0 0 0 10px;
+    list-style: none;
+	}
+	
+	.he_jub_container  li:before {
+		content: "» ";
+		color: black;	
+	}
+	
+	.he_jub_container table {
+		margin: 0;
+	}
+	
+	.he_jub_container table tr,
+	.he_jub_container table td	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	.he_jub_container table td:first-child	{
+		width: 55px;
+	}
+	
+	.tx-hetools-pi2 h1.fakultaet {
+		background: #004666;
+		margin-bottom: 0;
+		padding: 10px;
+		font-size: 140%;
+	}
+	
+	.tx-hetools-pi2 h1.studiengang {
+		font-size: 120%;
+		background: #719DB0;
+		color: #fff;
+		display: block;
+		padding: 5px 5px 5px 5px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-weight: bold;
+		border: none;
+	}
+	
+	.he_img_container .title {
+		float: left;
+		width: 100%;
+	}
+	
+	.he_img_container .title {
+		margin: 0 0 10px 0;
+	}
+
+	.he_img_container .title span {
+		font-size: 120%;
+		background: #719DB0;
+		color: white;
+		display: block;
+		padding: 5px 5px 5px 5px;
+		text-decoration: none;
+		font-weight: bold;
+		border-left: 3px solid #719DB0;
+		border: none;
+		overflow: hidden;
+	}
+	
+	.he_img_container .einleitung {
+		float: left;
+		width: 100%;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	
+	.he_img_container .left {
+		float: left;
+		width: 150px;
+	}
+	
+	.he_img_container .left img {
+		float: left;
+		width: 150px;
+	}
+	
+	.he_img_container .left a {
+		margin: 0;
+		padding: 0;
+		background: none;
+	}
+	
+	.he_img_container .content {
+		float: left;
+		width: 48%;
+		margin: 0 2% 10px 2%;
+	}
+	
+	.he_img_container .content p {
+		margin: 0;
+	}
+	
+	.he_img_links_block {
+		float: left;
+		height: 170px;
+		width: 48%;
+		padding: 0;
+		background: #E5EEF1;
+		margin-bottom: 20px;
+	}
+
+	.he_img_links_block.einstieg {
+		overflow: hidden;
+		height: inherit;
+		margin-bottom: 0;
+}
+
+	.container1 {
+    float:left;
+    width:100%;
+    overflow:hidden;
+    background: #E5EEF1;
+		position:relative;
+    margin-bottom: 20px;
+	}
+	
+	.containerSep {
+    float: left;
+    width: 100%;
+    background: #fff;
+		position: relative;
+    right: 50%;
+    right: 48%;
+}
+	
+	.container2 {
+    float: left;
+    width: 100%;
+    background: #E5EEF1;
+		position: relative;
+    right: 4%;
+	}
+	
+	.container1 .col1 {
+    float: left;
+    width: 48%;
+    position: relative;
+    left: 52%;
+		overflow: hidden;
+	}
+	.container1 .col2 {
+    float: left;
+    width: 48%;
+    position: relative;
+    left: 56%;
+		overflow: hidden;
+	}
+
+	.container1 .colSep {
+    float: left;
+    width: 4%;
+    position: relative;
+    left: 50%;
+		overflow: hidden;
+	}
+	
+	.he_img_links_block p {
+		line-height: 1em;
+	}
+
+	.he_img_links_block.left {
+		margin-right: 2%;
+	}
+
+	.he_img_links_block.right {
+		margin-left: 2%;
+	}
+
+
+	.he_img_links_block .title {
+		font-size: 140%;
+		font-weight: bold;
+		color: #004666;
+		margin: 10px 10px 10px 10px;
+	}
+	
+	.he_img_links_block img {
+		width: 100%;
+	}
+
+	.he_img_links_block .container_img .filter {
+		opacity: 0.5;
+		filter: alpha(opacity = 50);
+		background: #E5EEF1;
+		width: 100%;
+		float: left;
+		height: 74px;
+		margin-top: -74px;
+	}
+
+	.he_img_links_block .container_img:hover .filter {
+		display: none;
+	}
+
+	.he_img_links_block .content,
+	.he_img_links_block ul {
+		margin: 10px;
+		padding: 0;
+		overflow: hidden;
+		float: left;
+		margin: 3%;
+		width: 94%;
+	}
+	
+	.he_img_links_block ul {
+		margin: 0;
+		width: 100%;
+}
+
+	.he_img_links_block.left .content,
+	.he_img_links_block.left ul,
+	.he_img_links_block.right .content,
+	.he_img_links_block.right ul {
+		font-size: 110%;
+	}
+	
+	.he_img_links_block li {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	}
+	
+	.he_img_links_block li a:link,
+	.he_img_links_block li a:visited
+	 {
+		text-decoration: none;
+		font-weight: normal;
+	}
+	
+	
+	.he_img_container .left a:link,
+	.he_img_container .left a:visited {
+		background: transparent !important;
+		padding: 0;
+	}
+
+	.he_img_links_block.einstieg a:link,
+	.he_img_links_block.einstieg a:visited,
+	.he_img_container a:link,
+	.he_img_container a:visited {
+		background: url(/fileadmin/images/layout/pfeil-rechts.png) no-repeat 2px 6px !important;
+		text-decoration: none;
+		font-weight: normal;
+		padding: 2px 0 2px 15px;	
+	}
+	
+	.he_img_container a,
+	.he_img_links_block.einstieg a {
+		width: 90%;
+		padding: 0 0 0 15px;	
+		float: left;
+		line-height: 1.5em !important;
+	}
+	
+	.he_img_links_block.einstieg a:hover,
+	.he_img_container a:hover,
+	.he_img_links_block ul.link_list li:hover,
+	.he_img_links_block ul.link_list li:focus {
+		background: #004666 url(/fileadmin/images/layout/pfeil-rechts-weiss.png) no-repeat 2px 6px !important;
+		color: #fff;
+	}
+	
+	.he_img_links_block li:hover a,
+	.he_img_links_block li:focus a {
+		background: none  !important;
+		color: #fff;
+	}
+	
+	.he_img_container div.title a:link,
+	.he_img_container div.title a:visited,
+	.he_img_container div.title a:hover,
+	.he_img_container div.title a:focus {
+		background: none !important;
+		color: #fff;
+		font-weight: bold;
+		padding: 0;
+	}
+	
+	.he_img_container div.title a:hover {
+		background: none !important;
+		color: #fff;
+	}
+	
+.he_img_links_block li {
+		list-style-type: none;
+		background: transparent url(/fileadmin/images/layout/pfeil-rechts.png) no-repeat 2px center !important;
+		padding: 2px 0 2px 15px;
+		margin: 0;
+	}
+	
+	.he_img_links_block ul.link_list li {
+		background: transparent url(/fileadmin/images/layout/pfeil-rechts.png) no-repeat 10px center !important;
+		padding-left: 25px;
+	}
+	
+	.he_img_links_block  ul.link_list li:hover,
+	.he_img_links_block  ul.link_list li:focus {
+		background:  #004666 url(/fileadmin/images/layout/pfeil-rechts-weiss.png) no-repeat 10px center !important;
+		color: #fff;
+	}
+	
+	.he_img_links_block.einstieg .container_img a:link,
+	.he_img_links_block.einstieg .container_img a:visited {
+		background: none !important;
+		padding: 0;	
+	}
+
+	.he_img_container .container_img  a, 
+	.he_img_links_block.einstieg .container_img  a {
+		width: 100%;
+	}
+	
+	br.clear {
+		clear: both;
+	}
+
+	#singleHeader,
+	#slideshow {
+		float: left;
+	  width: 100%;
+		margin: 0 0 10px 0;
+		padding: 0;
+		overflow: hidden;
+		height: 100px;
+	}
+
+	#slideshow #images {
+		float: left;
+	  width: 100%;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		height: 100px;
+	}
+
+	#slideshow #images li {
+		list-style-type: none;
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+	
+	#slideshow #prev {
+		position: absolute;
+		left: 20px;
+		height: 100px;
+		width: 100px;
+		opacity: 0.8;
+		z-index: 3;
+	}
+	
+	#slideshow #next {
+		position: absolute;
+		right: 20px;
+		height: 100px;
+		width: 100px;
+		opacity: 0.8;
+		z-index: 3;
+	}
+	
+	#slideshow #prev:hover {
+		background: transparent url(/typo3conf/ext/he_tools/res/img/prev.gif) no-repeat 0% 50%;
+	}
+
+	#slideshow #next:hover {
+		background: transparent url(/typo3conf/ext/he_tools/res/img/next.gif) no-repeat 100% 50%;
+	}
+
+	table.daten_und_fakten th  {
+		font-size: 120%;
+	}
+	
+	table.daten_und_fakten td  {
+		color: #004666;
+		font-size: 110%;
+	}
+	
+	div.laufband.studiengaenge {
+		background: #D40032;
+	}
+	
+	div.laufband.studiengaenge marquee {
+		background: transparent;
+		font-size: 120%;
+		font-weight: bold;
+		color: #fff;
+		padding: 2px 5px;
+	}
+
+	.startseite_jubilaeum .he_img_links_block .title,
+	.startseite_jubilaeum .he_img_links_block .title a:link,
+	.startseite_jubilaeum .he_img_links_block .title a:visited {
+		color: #D40032;
+		text-decoration: none;
+	}
+	
+	.startseite_jubilaeum .he_img_links_block.inhalt a:link, 
+	.startseite_jubilaeum .he_img_links_block.inhalt a:visited {
+		background: none;
+		padding: 2px 0;
+	}
+	
+	.startseite_jubilaeum .he_img_links_block {
+		height: 120px;
+	}
+
+	

@@ -1,0 +1,119 @@
+
+	.gastdaten input[type='checkbox'] {
+		float: left;
+		width: 20px;
+		clear: left;
+	}
+
+	.gastdaten .zustimmung {
+		margin: 10px 0;
+		overflow: hidden;
+	}
+
+	.gastdaten label {
+		float: left;
+		width: 500px;
+		font-weight: bold;
+		margin-top: 10px;
+	}
+	
+	div.value {
+		float: left;
+		clear: left;
+		width: 500px;
+		font-weight: normal;
+	}
+
+	.error {
+		background: #fff;
+  	color: #D40032;
+  	font-weight: bold; 
+  }
+  
+	.fehlermeldungen .error {
+		margin-bottom: 4px;
+		clear: left;
+		float: left;
+  }
+  
+	hr {
+  	clear: left;
+  }
+  
+  a.button.disable:link {
+  	background: #D40032;
+  }
+  
+  /*
+ * ########### Icons ############
+ */
+ 
+.listView .row {
+	clear: left;
+	overflow: hidden;
+	padding: 2px;
+}
+
+.listView .odd {
+	background: #D9E4E8;
+}
+
+.listView .angelegt a {
+	color: #E11C3E;
+}
+
+.listView .even {
+	background: #fff;
+}
+
+.listView span,
+.listView a {
+	float: left;
+}
+
+.icon-actions {
+	height: 16px;
+	width: 16px;
+	background-image: url('/typo3/sysext/t3skin/images/sprites/t3skin.png') !important;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;	
+	float: left;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+#form_gastzugaenge table {
+	margin-top: 10px;	
+	clear: left;
+}
+
+.dyn_table .icon-actions {
+	padding: 0;
+}
+
+.dyn_table th.hidden,
+.dyn_table td.hidden {
+	display: none;
+}
+table.dyn_table th, 
+table.dyn_table td {
+	vertical-align: top;
+}
+
+.t3-icon-move-down.hidden {
+	background-image: none !important;
+	cursor: default;
+}
+
+.t3-icon-move-up.hidden {
+	background-image: none !important;
+	cursor: default;
+}
+  
+.icon-delete {
+	background-position: -162px -18px !important;
+}
+  

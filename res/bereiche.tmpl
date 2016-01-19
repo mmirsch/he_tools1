@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <body>
+
+<!-- ###TEMPLATE_LIST### begin -->
+          <div class="service">
+<!-- ###SEARCHFORM### begin -->
+            <div class="searchbox searchbox-###VIEW###-###MODE###">
+              <form id="filter_form" action="###ACTION###" method="post" >
+                <!-- Add the filter with the ###TABLE.FIELD### syntax and configure your filter with TypoScript -->
+                <div class="filter_box">
+	                ###TX_HETOOLS_KATEGORIE1.TITLE### 
+	                ###TX_HETOOLS_KATEGORIE2.TITLE###
+                </div> 
+                <div class="such_box">
+	                <input type="hidden" name="no_cache" value="1" />
+	                <input class="sword" size="40" type="text" name="tx_browser_pi1[sword]" onfocus="if(this.value =='###SWORD_DEFAULT###') this.value=''" value="###SWORD###" />
+	                <input class="button" type="submit" value="###BUTTON###" />
+	                <input class="button" type="button" onclick="location='###MY_URL###'" value="###MY_RESET###" />
+                </div> 
+              </form>
+              ###RESULTPHRASE###
+            </div><!-- ###SEARCHFORM### end -->
+<!-- ###LISTVIEW### begin -->
+            <div class="###VIEW###view ###VIEW###view-###MODE###">
+              <div class="produktliste"><!-- ###LISTBODY### begin -->
+              <!-- ###LISTBODYITEM### begin -->
+                  <div class="element">
+<h2>###TX_HETOOLS_BEREICH.TITLE###</h2>
+###TX_HETOOLS_BEREICH.TELEFON###
+###TX_HETOOLS_BEREICH.EMAIL###
+###TX_HETOOLS_BEREICH.BEMERKUNG###
+                  </div>
+                <!-- ###LISTBODYITEM### end -->
+              <!-- ###LISTBODY### end -->
+              </div>
+            </div><!-- ###LISTVIEW### end -->
+          </div>
+<!-- ###MODESELECTOR### begin -->
+            <div class="modeSelector modeSelector-###VIEW###-###MODE###">
+              <ul class="modeSelector modeSelector-###VIEW###-###MODE###"><!-- ###MODESELECTORTABS### begin -->
+                <li###CLASS###>###TABS###</li><!-- ###MODESELECTORTABS### end -->
+              </ul>
+            </div><!-- ###MODESELECTOR### end -->
+<!-- ###PAGEBROWSER### begin -->
+            <div class="browsebox browsebox-###VIEW###-###MODE###">
+              ###RESULT_AND_ITEMS###
+            </div><!-- ###PAGEBROWSER### end -->
+<!-- ###TEMPLATE_LIST### end -->
+
+  </body>
+</html>

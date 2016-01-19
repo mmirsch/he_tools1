@@ -1,0 +1,114 @@
+
+.uhrzeit {
+	float: left;
+	width: 100px;
+	border: 1px solid white;
+	background: #eee;
+}
+
+.uhrzeit label {
+	width: 90%;
+	vertical-align: top;
+	cursor: pointer;
+	padding: 2px 5%;
+	float: left;
+	text-align: center;
+}
+
+.uhrzeit.active label,
+.uhrzeit label:hover {
+	color: white;
+	background: green;
+}
+
+.uhrzeit input {
+	vertical-align: top;
+	cursor: pointer;
+	position: absolute;
+	clip: rect(0px, 0px, 0px, 0px);
+}
+
+.disabled {
+	opacity: 0.8;
+}
+
+.uhrzeit.disabled label {
+	cursor: auto;
+	background: #eee !important;
+	color: #aaa;
+}
+
+.uhrzeit.blocked label,
+.uhrzeit.user_blocked label,
+.uhrzeit.booked label,
+.uhrzeit.user_booked label {
+	cursor: auto;
+	color: #fff;
+	opacity: 0.7;
+}
+
+.uhrzeit.blocked label {
+	background: #D40032 !important;
+}
+
+.uhrzeit.user_blocked label {
+	background: #004200 !important;
+}
+
+.uhrzeit.booked label {
+	background: #D40032 !important;
+}
+
+.uhrzeit.disabled.booked label {
+	background: #eee !important;
+	color: #aaa;
+}
+
+.uhrzeit.user_booked label {
+	background: green !important;
+	opacity: 1;
+}
+
+.uhrzeit.user_booked label:hover {
+	background: #D40032 !important;
+	cursor: pointer;
+}
+
+.uhrzeit.blocked input,
+.uhrzeit.user_blocked input,
+.uhrzeit.booked input,
+.uhrzeit.user_booked input,
+.uhrzeit.disabled input {
+	cursor: auto;
+}
+
+.tx-hetools-pi1 form {
+	overflow: hidden;
+}
+
+.tx-hetools-pi1 form input.button {
+	clear: left;
+	float: left;
+	margin: 4px 0;
+}
+
+
+.tx-hetools-pi1 h2 {
+	clear: left;
+	margin: 20px 0 10px 0;
+}
+
+.tx-hetools-pi1 h2 + h3 {
+	clear: left;
+	margin: 0 0 10px 0;
+}
+
+.tx-hetools-pi1 h3 {
+	clear: left;
+	margin: 20px 0 10px 0;
+}
+
+.hidden {
+	display: none;
+}
+

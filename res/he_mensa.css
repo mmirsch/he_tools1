@@ -1,0 +1,134 @@
+  .mensa_speiseplan .logo {
+		float: left;
+		width: 200px;
+		margin-right: 10px;
+}
+	
+ .mensa_speiseplan .logo img {
+		width: 100%;
+	}
+	
+.mensa_speiseplan .standort {
+		float: right;
+		font-weight: bold;
+		color: #004666;
+		font-size: 120%;
+		margin: 25px 0 0 0;
+	}
+	
+.mensa_speiseplan .content {
+		clear: both;
+	}
+	
+.mensa_speiseplan td.gericht {
+  	width: 90px;
+  	text-align: left;
+  	font-weight: bold;
+  }
+  
+ .mensa_speiseplan td.preis {
+  	width: 110px;
+  	text-align: right;
+  }
+  
+	.mensa_speiseplan .ui-widget-header {
+		border: none;
+		border-bottom: 1px solid #004666;
+		background: #fff;
+		color: #004666;
+		font-size: 80%;
+		font-weight: bold;
+	}
+	
+	.mensa_speiseplan .ui-corner-all, 
+	.mensa_speiseplan .ui-corner-bottom, 
+	.mensa_speiseplan .ui-corner-right, 
+	.mensa_speiseplan .ui-corner-br {
+		border: none;
+	}
+	
+	.mensa_speiseplan .ui-tabs ul.ui-tabs-nav {
+		padding: 0.2em 0.2em 0;
+		float: left;
+		overflow: hidden;
+	}
+
+	.mensa_speiseplan .ui-state-default, 
+	.mensa_speiseplan .ui-widget-content .ui-state-default, 
+	.mensa_speiseplan .ui-widget-header .ui-state-default {
+		border: 1px solid #004666;
+		background: #fff;
+		color: #004666;
+	}
+	
+	.mensa_speiseplan .ui-widget-header .ui-state-default:hover {
+		background: #004666;
+	}
+	
+	.mensa_speiseplan .ui-widget-header .ui-state-active {
+		border: 1px solid #004666;
+		background: #004666;
+	}
+
+	.mensa_speiseplan .ui-widget-header .ui-state-default:hover a,
+	.mensa_speiseplan .ui-widget-header .ui-state-active a {
+		color: #fff;
+	}
+	
+	.mensa_speiseplan .tagesplan .hell {
+		background: #fff;
+	}
+
+	.mensa_speiseplan .tagesplan {
+		width: 100%;
+		border: 1px solid #004666;
+	}
+
+	.mensa_speiseplan .tagesplan .dunkel {
+		background: #F2F7F9;
+	}
+
+	.mensa_speiseplan .ui-tabs .ui-tabs-panel {
+		padding: 0;
+		clear: both;
+	}
+	
+	.mensa_speiseplan .next-week {
+		float: right;
+		border: 1px solid #004666;
+		background: white;
+		color: #004666;
+		margin: 0 .2em 1px 0;
+		-moz-border-radius-topright: 4px;
+		-webkit-border-top-right-radius: 4px;
+		-khtml-border-top-right-radius: 4px;
+		border-top-right-radius: 4px;
+		-moz-border-radius-topleft: 4px;
+		-webkit-border-top-left-radius: 4px;
+		-khtml-border-top-left-radius: 4px;
+		border-top-left-radius: 4px;
+		line-height: 1.5em;
+		border-bottom: none;
+	}
+	
+	.mensa_speiseplan .next-week:hover {
+		background: #004666;
+	}
+	
+	.mensa_speiseplan .next-week a {
+		float: left;
+		text-decoration: none;
+		padding: .5em 1em;
+		color: #555;
+		font-size: 80%;
+		font-weight: bold;
+	}
+	
+	.mensa_speiseplan .next-week a:hover {
+		color: #fff;
+	}
+
+  .mensa_speiseplan .ferien h2 {
+      margin: 10px;
+      padding: 30px 20px;
+  }

@@ -1,0 +1,48 @@
+	.zeitschriften_titel {
+		width: 60%;
+		padding: 2px 4px;
+	}
+	
+	.zeitschriften_signatur {
+		width: 13%;
+		padding: 2px 4px;
+	}
+	
+	.zeitschriften_bestandsnachweis {
+		width: 27%;
+		padding: 2px 4px;
+	}
+	
+	a.img_seitenanfang {
+		background: url(/fileadmin/images/layout/pfeil-oben.png) center left no-repeat;
+		width: 16px;
+	}
+	
+	table.zeitschriften td {
+		padding: 2px 4px;
+	}
+
+	table.zeitschriften th {
+		font-size: 110%; 
+		padding: 2px 4px;
+		font-weight: bold;
+		background: none;
+		color: #fff;
+	}
+
+	table.zeitschriften p {
+		padding: 0;
+	}
+
+	.buchstaben_links {
+		padding: 2px 0;
+	}
+		
+	
+	.buchstaben_links a  {
+		font-size: 150%;
+		font-weight: bold;
+		padding: 0 6px 0 0;
+		text-decoration: none;
+	}
+	

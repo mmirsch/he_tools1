@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="default" type="array">
+            <label index="select_key.description">Es werden alle Dokumente des eingetragenen Verzeichnisses aufgelistet.<br />
+						Für Details klicken Sie bitte auf den Pfeil.</label>
+            <label index="select_key.details">Es werden alle Dokumente des eingetragenen Verzeichnisses aufgelistet.<br />
+						Für Details klicken Sie bitte auf den Pfeil.
+      </label>
+			<label index="select_key.details">
+  			<h3>Funktion</h3>
+						Es werden alle Dokumente des ausgewählten bzw. eingetragenen 
+						 Verzeichnisses aufgelistet.<br />
+						 <br />
+						 <h3>Vorgehensweise</h3>
+						 Wählen Sie zunächst mit Hilfe des Assistenten das Verzeichnis aus,
+						 in dem sich die aufzulistenden Dateien befinden. Klicken Sie hierzu auf
+						 das Stifticon an de rechten oberen Ecke des Eingabefeldes.<br/>
+						 Im Popup-Fenster klicken Sie dann auf den Reiter "Ordner" und wählen 
+						 dort das gewünschte Verzeichnis aus.<br/>
+						 <br/> 
+						 <h3>Parametrisierung</h3>
+						 Sie können die Auswahl auf bestimmte Dateitypen beschränken, z.B. <b>*.pdf</b><br />
+						 Weiterhin können Sie über den dritten Parameter das Sortierfeld übergeben, z.B. <b>title</b><br />
+						 Alle Felder müssen durch das Zeichen "|" eingeleitet werden.<br/>
+						 <h3>Beispiel: </h3>
+				 		<b>fileadmin/medien/doc|*.pdf|title</b><br/>
+				 		<br/>
+						Dieser Eintrag listet alle Dateien im Verzeichnis "fileadmin/medien/doc" auf, die vom Typ "pdf" sind 
+							und sortiert diese nach dem Titelfeld.
+					</label>
+        </languageKey>
+    </data>
+</T3locallangExt>

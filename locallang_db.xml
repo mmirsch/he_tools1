@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'he_tools'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_hebest_hauptkategorie">Hauptkategorie</label>
+			<label index="tx_hebest_hauptkategorie.title">Titel</label>
+			<label index="tx_hebest_unterkategorie">Unterkategorie</label>
+			<label index="tx_hebest_unterkategorie.title">Titel</label>
+			<label index="tx_hebest_stadt">Stadt</label>
+			<label index="tx_hebest_stadt.title">Titel</label>
+			<label index="tx_hebest_produktname">Produktname</label>
+			<label index="tx_hebest_produktname.title">Titel</label>
+			<label index="tx_hebest_eigenschaft1">Eigenschaft 1</label>
+			<label index="tx_hebest_eigenschaft1.title">Titel</label>
+			<label index="tx_hebest_eigenschaft2">Eigenschaft 2</label>
+			<label index="tx_hebest_eigenschaft2.title">Titel</label>
+			<label index="tx_hebest_hersteller">Hersteller</label>
+			<label index="tx_hebest_hersteller.keyword1">Keyword 1</label>
+			<label index="tx_hebest_hersteller.keyword2">Keyword 2</label>
+			<label index="tx_hebest_hersteller.title">Name/Bezeichnung</label>
+			<label index="tx_hebest_hersteller.anschrift">Anschrift (Str.)</label>
+			<label index="tx_hebest_hersteller.plz">Plz</label>
+			<label index="tx_hebest_hersteller.stadt">Stadt</label>
+			<label index="tx_hebest_hersteller.tel">Tel</label>
+			<label index="tx_hebest_hersteller.fax">Fax</label>
+			<label index="tx_hebest_hersteller.www">www</label>
+			<label index="tx_hebest_hersteller.email">E-Mail</label>
+			<label index="tx_hebest_hersteller.bemerkung">Bemerkung</label>
+			<label index="tx_hebest_hersteller.interne_bemerkung">interne Bemerkung</label>
+			<label index="tx_hebest_hersteller.bild">Bild</label>
+			<label index="tx_hebest_hersteller.intranet">Intranet</label>
+
+			<label index="tx_hebest_lieferanten">Lieferanten</label>
+			<label index="tx_hebest_lieferanten.keyword1">Keyword 1</label>
+			<label index="tx_hebest_lieferanten.keyword2">Keyword 2</label>
+			<label index="tx_hebest_lieferanten.title">Name/Bezeichnung</label>
+			<label index="tx_hebest_lieferanten.anschrift">Anschrift (Str.)</label>
+			<label index="tx_hebest_lieferanten.plz">Plz</label>
+			<label index="tx_hebest_lieferanten.stadt">Stadt</label>
+			<label index="tx_hebest_lieferanten.tel">Tel</label>
+			<label index="tx_hebest_lieferanten.fax">Fax</label>
+			<label index="tx_hebest_lieferanten.www">www</label>
+			<label index="tx_hebest_lieferanten.email">E-Mail</label>
+			<label index="tx_hebest_lieferanten.bemerkung">Bemerkung</label>
+			<label index="tx_hebest_lieferanten.interne_bemerkung">interne Bemerkung</label>
+			<label index="tx_hebest_lieferanten.bild">Bild</label>
+			<label index="tx_hebest_lieferanten.intranet">Intranet</label>
+			<label index="tx_hebest_keyword1">Keyword 1</label>
+			<label index="tx_hebest_keyword1.title">Titel</label>
+			<label index="tx_hebest_keyword1.kontakte">Kontakte</label>
+			<label index="tx_hebest_keyword2">Keyword 2</label>
+			<label index="tx_hebest_keyword2.title">Titel</label>
+			<label index="tx_hebest_artikel">Artikel</label>
+			<label index="tx_hebest_artikel.hauptkategorie">Haupkategorie</label>
+			<label index="tx_hebest_artikel.unterkategorie">Unterkategorie</label>
+			<label index="tx_hebest_artikel.eigenschaft1">Eigenschaft 1</label>
+			<label index="tx_hebest_artikel.eigenschaft2">Eigenschaft 2</label>
+			<label index="tx_hebest_artikel.hersteller">Hersteller</label>
+			<label index="tx_hebest_artikel.lieferant">Lieferant</label>
+			<label index="tx_hebest_artikel.produktname">*Produktname</label>
+			<label index="tx_hebest_artikel.preis">*Preis</label>
+			<label index="tx_hebest_artikel.hersteller_bezeichnung">Hersteller-Bezeichnung</label>
+			<label index="tx_hebest_artikel.artikelnummer">*Artikelnummer (Die Artikelnummer muss eindeutig sein)</label>
+			<label index="tx_hebest_artikel.anzeigen_bis">anzeigen bis</label>
+			<label index="tx_hebest_artikel.ansprechpartner">Ansprechpartner</label>
+			<label index="tx_hebest_artikel.bemerkung">Bemerkung</label>
+			<label index="tx_hebest_artikel.interne_bemerkung">interne Bemerkung</label>
+			<label index="tx_hebest_artikel.link">Link</label>
+			<label index="tx_hebest_artikel.linktext">Linktext</label>
+			<label index="tx_hebest_artikel.bild">Bild</label>
+			<label index="tx_hebest_artikel.intranet">Intranet</label>
+			<label index="tx_hebest_artikel.oeffentlich_verbergen">öffentlich verbergen</label>
+			
+			<label index="tt_content.list_type_pi1">Datenimport Verbrauchsmaterial</label>
+
+			<label index="tt_content.list_type_pi1">HE-Plugins</label>
+			<label index="tt_content.list_type_pi2">HE-Grafik mit Links</label>
+		</languageKey>
+	</data>
+</T3locallang>

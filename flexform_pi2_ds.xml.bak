@@ -1,0 +1,273 @@
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+		<!--  <langChildren>1</langChildren>!-->
+	</meta>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>HE Bild mit Links</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+ 					<mode>
+						<TCEforms>
+						<exclude>1</exclude>
+							<label>Typ auswählen</label>
+							<onChange>reload</onChange>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">Startseite Fakultät</numIndex>
+										<numIndex index="1">STARTSEITE_FAKULTAET</numIndex>
+									</numIndex>
+										<numIndex index="1" type="array">
+										<numIndex index="0">Startseite Studiengang</numIndex>
+										<numIndex index="1">STARTSEITE_STUDIENGANG</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">Sonstige Seite</numIndex>
+										<numIndex index="1">SONSTIGE</numIndex>
+									</numIndex>
+									</items>
+							</config>
+						</TCEforms>
+					</mode>
+					<bild_mit_links_grafik>
+						<TCEforms>
+						<exclude>1</exclude>
+							<label>Grafikdatei auswählen</label>
+							<config>
+								<type>group</type>
+								<internal_type>file</internal_type>
+								<allowed>jpg,gif</allowed>
+								<max_size>30000</max_size>
+								<size>1</size>
+								<minitems>1</minitems>    
+								<show_thumbs>1</show_thumbs>
+							</config>
+						</TCEforms>
+					</bild_mit_links_grafik>
+					<bild_mit_links_anz_links>
+						<TCEforms>
+						<exclude>1</exclude>
+							<label>Anzahl Links</label>
+							<onChange>reload</onChange>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="1" type="array">		
+										<numIndex index="0">1</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>		
+									<numIndex index="2" type="array">		
+										<numIndex index="0">2</numIndex>
+										<numIndex index="1">2</numIndex>
+									</numIndex>		
+									<numIndex index="3" type="array">		
+										<numIndex index="0">3</numIndex>
+										<numIndex index="1">3</numIndex>
+									</numIndex>		
+									<numIndex index="4" type="array">		
+										<numIndex index="0">4</numIndex>
+										<numIndex index="1">4</numIndex>
+									</numIndex>		
+									<numIndex index="5" type="array">		
+										<numIndex index="0">5</numIndex>
+										<numIndex index="1">5</numIndex>
+									</numIndex>		
+									</items>
+								</config>
+						</TCEforms>
+					</bild_mit_links_anz_links>
+					<bild_mit_links_links_1>
+						<TCEforms>
+  					<displayCond>FIELD:bild_mit_links_anz_links:IN:1</displayCond>
+							<label>Linkziel auswählen</label>
+							<config>
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>pages</allowed>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<minitems>1</minitems>
+								<show_thumbs>1</show_thumbs>
+								<uploadfolder>fileadmin/medien</uploadfolder>
+							</config>
+						</TCEforms>
+					</bild_mit_links_links_1>
+					<bild_mit_links_links_2_1>
+						<TCEforms>
+  					<displayCond>FIELD:bild_mit_links_anz_links:IN:2</displayCond>
+							<label>Link 1 auswählen</label>
+							<config>
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>pages</allowed>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<minitems>1</minitems>
+								<show_thumbs>1</show_thumbs>
+							</config>
+						</TCEforms>
+					</bild_mit_links_links_2_1>
+					<bild_mit_links_links_2_2>
+						<TCEforms>
+  					<displayCond>FIELD:bild_mit_links_anz_links:IN:2</displayCond>
+							<label>Link 2 auswählen</label>
+							<config>
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>pages</allowed>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<minitems>1</minitems>
+								<show_thumbs>1</show_thumbs>
+							</config>
+						</TCEforms>
+					</bild_mit_links_links_2_2>
+					<bild_mit_links_label_3_1>
+						<TCEforms>
+						<exclude>1</exclude>
+  					<displayCond>FIELD:bild_mit_links_anz_links:IN:3</displayCond>
+							<label>Beschriftung 1 auswählen</label>
+							<config>
+								<type>input</type>
+								<size>20</size>
+							</config>
+						</TCEforms>
+					</bild_mit_links_label_3_1>
+					<bild_mit_links_links_3_1>
+						<TCEforms>
+  					<displayCond>FIELD:bild_mit_links_anz_links:IN:3</displayCond>
+							<label>Link 1 auswählen</label>
+							<config>
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>pages</allowed>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<minitems>0</minitems>
+								<show_thumbs>1</show_thumbs>
+							</config>
+						</TCEforms>
+					</bild_mit_links_links_3_1>
+					<bild_mit_links_label_3_2>
+						<TCEforms>
+						<exclude>1</exclude>
+  					<displayCond>FIELD:bild_mit_links_anz_links:IN:3</displayCond>
+							<label>Beschriftung 2 auswählen</label>
+							<config>
+								<type>input</type>
+								<size>20</size>
+							</config>
+						</TCEforms>
+					</bild_mit_links_label_3_2>
+					<bild_mit_links_links_3_2>
+						<TCEforms>
+  					<displayCond>FIELD:bild_mit_links_anz_links:IN:3</displayCond>
+							<label>Link 2 auswählen</label>
+							<config>
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>pages</allowed>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<minitems>0</minitems>
+								<show_thumbs>1</show_thumbs>
+							</config>
+						</TCEforms>
+					</bild_mit_links_links_3_2>
+					<bild_mit_links_label_3_3>
+						<TCEforms>
+						<exclude>1</exclude>
+  					<displayCond>FIELD:bild_mit_links_anz_links:IN:3</displayCond>
+							<label>Beschriftung 3 auswählen</label>
+							<config>
+								<type>input</type>
+								<size>20</size>
+							</config>
+						</TCEforms>
+					</bild_mit_links_label_3_3>
+					<bild_mit_links_links_3_3>
+						<TCEforms>
+  					<displayCond>FIELD:bild_mit_links_anz_links:IN:3</displayCond>
+							<label>Link 3 auswählen</label>
+							<config>
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>pages</allowed>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<minitems>0</minitems>
+								<show_thumbs>1</show_thumbs>
+							</config>
+						</TCEforms>
+					</bild_mit_links_links_3_3>
+					<bild_mit_links_links_4_1>
+						<TCEforms>
+  					<displayCond>FIELD:bild_mit_links_anz_links:IN:4</displayCond>
+							<label>Link 1 auswählen</label>
+							<config>
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>pages</allowed>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<minitems>0</minitems>
+								<show_thumbs>1</show_thumbs>
+							</config>
+						</TCEforms>
+					</bild_mit_links_links_4_1>
+					<bild_mit_links_links_4_2>
+						<TCEforms>
+  					<displayCond>FIELD:bild_mit_links_anz_links:IN:4</displayCond>
+							<label>Link 2 auswählen</label>
+							<config>
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>pages</allowed>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<minitems>0</minitems>
+								<show_thumbs>1</show_thumbs>
+							</config>
+						</TCEforms>
+					</bild_mit_links_links_4_2>
+					<bild_mit_links_links_4_3>
+						<TCEforms>
+  					<displayCond>FIELD:bild_mit_links_anz_links:IN:4</displayCond>
+							<label>Link 3 auswählen</label>
+							<config>
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>pages</allowed>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<minitems>0</minitems>
+								<show_thumbs>1</show_thumbs>
+							</config>
+						</TCEforms>
+					</bild_mit_links_links_4_3>
+					<bild_mit_links_links_4_4>
+						<TCEforms>
+  					<displayCond>FIELD:bild_mit_links_anz_links:IN:4</displayCond>
+							<label>Link 4 auswählen</label>
+							<config>
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>pages</allowed>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<minitems>0</minitems>
+								<show_thumbs>1</show_thumbs>
+							</config>
+						</TCEforms>
+					</bild_mit_links_links_4_4>
+				</el>
+			</ROOT>
+		</sDEF>
+	</sheets>
+</T3DataStructure>
